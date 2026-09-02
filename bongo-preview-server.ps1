@@ -6,10 +6,11 @@ $taskRoot = $PSScriptRoot
 $runtimeRoot = Join-Path $PSScriptRoot '.runtime'
 $previewRoot = Join-Path $PSScriptRoot 'bongo-waifu-clothes-preview'
 $spineAssetRoot = Join-Path $PSScriptRoot 'runtime\bongo-spine-assets'
-$pythonSitePackages = Join-Path $runtimeRoot 'Lib\site-packages'
+$pythonRoot = Join-Path $PSScriptRoot 'runtime\python'
+$pythonSitePackages = Join-Path $pythonRoot 'Lib\site-packages'
 $unityPyRoot = $pythonSitePackages
 $dncilRoot = $pythonSitePackages
-$pythonPath = Join-Path $runtimeRoot 'Scripts\python.exe'
+$pythonPath = Join-Path $pythonRoot 'python.exe'
 $rendererPath = Join-Path $PSScriptRoot 'bongo-render-look.py'
 $preloaderPath = Join-Path $PSScriptRoot 'bongo-preload-assets.py'
 $nativePatcherPath = Join-Path $PSScriptRoot 'bongo-native-apply.py'
@@ -373,7 +374,7 @@ function Get-BongoLiveState {
 
 function Test-PreviewServer([int]$candidatePort) {
     try {
-        $response = Invoke-WebRequest -UseBasicParsing -Uri "http://127.0.0.1:$candidatePort/api/status" -TimeoutSec 1
+        $response = Invoke-WebRequest -UseBasicParsing -Uri "http://127.0.0.1:$candidatePort/api/status" -TimeoutSec 5
         return $response.StatusCode -eq 200 -and $response.Content.Contains("`"apiVersion`":$apiVersion")
     }
     catch { return $false }

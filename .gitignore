@@ -1,4 +1,7 @@
 .runtime/
+.build/
+dist/
+runtime/python/
 __pycache__/
 *.pyc
 *.log

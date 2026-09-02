@@ -1,35 +1,21 @@
 # Bongo Waifu — Unlocked Clothes
 
-An unofficial local wardrobe mod for **Bongo Waifu**. Browse the full clothing catalog, preview combinations with the game's animated model, and apply the selected look locally.
+## What it is
 
-## Features
+**Bongo Waifu — Unlocked Clothes** is an unofficial, local wardrobe tool for the Steam version of Bongo Waifu. It finds the game automatically, reads the installed game assets, and displays the complete clothing catalog on the animated in-game model.
 
-- Full wardrobe browser with search and category filters
-- Animated Spine preview based on the game model
-- Fixed model panel with an independently scrolling clothing catalog
-- One-click local apply and automatic game launch
-- Automatic backup and restore option
-- English interface
+When you apply a look, the tool copies only the selected visual data into compatible local wardrobe slots and updates the local save. The original game files are backed up before the first change, and the **Restore** command puts them back. It does not add Steam inventory items, DLC ownership, achievements, or account entitlements.
 
-## Requirements
+The Windows installer includes everything the tool needs and creates desktop and Start menu shortcuts. No separate runtime or dependency installation is required.
 
-- Windows 10 or Windows 11
-- Bongo Waifu installed through Steam
-- Python 3.11 or newer
-- Internet access on the first run to install local Python dependencies
+This fan-made project is not affiliated with Ramen Cat Studio or Steam. Bongo Waifu and its game assets belong to their respective owners.
 
-## Installation
+## How to use
 
-1. Download the latest release or choose **Code → Download ZIP**.
-2. Extract the ZIP to a normal folder.
-3. Double-click **Open Bongo Wardrobe.cmd**.
-4. The first launch prepares the local dependencies and may take a few minutes.
-5. Choose a look and select **Apply → Open game**.
-
-Use **Options → Restore** inside the wardrobe to restore the original local game files.
-
-## Important
-
-This tool changes files and save data only on the current computer. It does not grant Steam inventory items, DLC ownership, achievements, or account entitlements. Keep a legitimate installation of the game and use the restore option before verifying game files or uninstalling the mod.
-
-This is an unofficial fan-made project and is not affiliated with Ramen Cat Studio or Steam. Bongo Waifu and all related third-party assets remain the property of their respective owners.
+1. Open the [latest release](https://github.com/BongoWaifuMods/bongo-waifu-unlocked-clothes/releases/latest) and download `BongoWaifu-Unlocked-Clothes-Setup.exe`.
+2. Run the installer. It installs the wardrobe for your Windows account and opens it automatically.
+3. Keep Bongo Waifu installed through Steam. Close the game before applying or restoring a look.
+4. Open **Bongo Waifu — Unlocked Clothes** from the desktop or Start menu.
+5. Choose the body, hair, clothes, accessories, and other parts you want.
+6. Select **Apply**, then choose the option that opens the game.
+7. To undo the changes, open **Options** and select **Restore** before uninstalling the tool or verifying the game files through Steam.
