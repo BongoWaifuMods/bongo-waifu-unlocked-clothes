@@ -1,0 +1,1139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bongo Waifu — Unlocked Clothes</title>
+  <script>
+    (() => {
+      if (window.location.protocol !== "file:") return;
+      document.documentElement.classList.add("file-bootstrap");
+      const minimumApiVersion = 8;
+      const origins = Array.from({ length: 10 }, (_, index) => `http://127.0.0.1:${54811 + index}`);
+      let redirected = false;
+
+      function encodeLook(value) {
+        const bytes = new TextEncoder().encode(value);
+        let binary = "";
+        bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
+        return btoa(binary).replaceAll("+", "-").replaceAll("/", "_").replaceAll("=", "");
+      }
+
+      function openAnimatedPreview(origin) {
+        if (redirected) return;
+        redirected = true;
+        let fragment = "";
+        try {
+          const savedLook = localStorage.getItem("bongo-waifu-local-visual-v2");
+          if (savedLook) fragment = `#look=${encodeLook(savedLook)}`;
+        } catch { }
+        window.location.replace(`${origin}/all-clothes.html${fragment}`);
+      }
+
+      window.addEventListener("message", (event) => {
+        if (!origins.includes(event.origin)) return;
+        if (event.data?.source !== "bongo-preview-discovery") return;
+        if (Number(event.data.apiVersion) >= minimumApiVersion) openAnimatedPreview(event.origin);
+      });
+
+      function probeLocalServers() {
+        if (redirected || !document.body) return;
+        document.querySelectorAll(".bongo-server-probe").forEach((frame) => frame.remove());
+        origins.forEach((origin) => {
+          const frame = document.createElement("iframe");
+          frame.className = "bongo-server-probe";
+          frame.hidden = true;
+          frame.setAttribute("aria-hidden", "true");
+          frame.src = `${origin}/preview-discovery.html?t=${Date.now()}`;
+          document.body.appendChild(frame);
+        });
+      }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        const gate = document.createElement("div");
+        const spinner = document.createElement("span");
+        const message = document.createElement("strong");
+        const help = document.createElement("small");
+        gate.className = "launch-gate";
+        gate.setAttribute("role", "status");
+        spinner.className = "launch-spinner";
+        spinner.setAttribute("aria-hidden", "true");
+        message.textContent = "Opening…";
+        help.textContent = "Run “Open Bongo Wardrobe.cmd” if this screen does not change.";
+        gate.append(spinner, message, help);
+        document.body.appendChild(gate);
+        probeLocalServers();
+        window.setInterval(probeLocalServers, 2000);
+      }, { once: true });
+    })();
+  </script>
+  <link rel="stylesheet" href="vendor/spine-player-4.2.92/spine-player.min.css">
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      --bg: #100d15;
+      --panel: #1b1621;
+      --panel-2: #241d2c;
+      --line: #44364f;
+      --line-hot: #bd82df;
+      --text: #f8f3fb;
+      --muted: #b9adbf;
+      --accent-a: #9a5bc4;
+      --accent-b: #6b3e89;
+      background: var(--bg);
+      color: var(--text);
+    }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; }
+    html.file-bootstrap body > :not(.launch-gate):not(.bongo-server-probe) { visibility: hidden; }
+    body {
+      min-width: 320px;
+      height: 100dvh;
+      margin: 0;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 10% 0, #382044 0, transparent 36rem),
+        var(--bg);
+    }
+    button, input, summary { font: inherit; }
+    button:focus-visible, input:focus-visible, summary:focus-visible, [role="button"]:focus-visible {
+      outline: 2px solid #dfaaf8;
+      outline-offset: 2px;
+    }
+    .launch-gate {
+      position: fixed;
+      z-index: 9999;
+      inset: 0;
+      display: grid;
+      place-content: center;
+      justify-items: center;
+      gap: 10px;
+      padding: 24px;
+      color: var(--text);
+      text-align: center;
+      background: radial-gradient(circle at 50% 35%, #382448, #110f17 62%);
+    }
+    .launch-gate small { max-width: 360px; color: var(--muted); line-height: 1.45; }
+    .launch-spinner, .model-spinner {
+      width: 28px;
+      height: 28px;
+      border: 3px solid #5d496c;
+      border-top-color: #cf95f1;
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .app {
+      display: grid;
+      grid-template-columns: minmax(290px, 42%) minmax(0, 1fr);
+      gap: 10px;
+      width: min(100%, 1800px);
+      height: 100%;
+      min-height: 0;
+      margin: 0 auto;
+      padding: 10px;
+      overflow: hidden;
+    }
+    .model, .catalog {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      background: #1b1621e8;
+      box-shadow: 0 18px 48px #0004;
+    }
+    .model { position: relative; }
+    .character-stage {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      cursor: pointer;
+      background: radial-gradient(circle at 50% 26%, #49365a 0, #2c2436 47%, #18131e 100%);
+    }
+    .character-stage::after {
+      position: absolute;
+      z-index: 2;
+      inset: 55% 0 0;
+      pointer-events: none;
+      content: "";
+      background: linear-gradient(180deg, transparent, #130f19a6);
+    }
+    .character-image, .spine-player-host {
+      position: absolute;
+      z-index: 1;
+      inset: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .character-image { object-fit: contain; }
+    .spine-player-host { display: none; }
+    .spine-player-host .spine-player, .spine-player-host canvas { width: 100% !important; height: 100% !important; }
+    .character-stage.spine-active .spine-player-host { display: block; }
+    .character-stage.spine-active .character-image { display: none; }
+    .model-spinner { position: relative; z-index: 4; display: none; }
+    .character-stage.is-loading .model-spinner { display: block; }
+    .character-stage.is-loading .spine-player-host { opacity: .5; }
+    .actions {
+      position: absolute;
+      z-index: 12;
+      right: 10px;
+      bottom: 10px;
+      left: 10px;
+      display: grid;
+      grid-template-columns: minmax(110px, 1fr) repeat(3, 42px);
+      gap: 7px;
+      pointer-events: none;
+    }
+    .actions button, .actions summary, .menu-popover button {
+      min-height: 42px;
+      border: 1px solid #675176;
+      border-radius: 10px;
+      color: var(--text);
+      cursor: pointer;
+      background: #2c2435eb;
+      box-shadow: 0 8px 20px #0005;
+      font-weight: 720;
+      pointer-events: auto;
+    }
+    .actions button:hover, .actions summary:hover, .menu-popover button:hover { border-color: #d7a0f2; background: #463354; }
+    .actions .apply {
+      border-color: #ca90eb;
+      background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+    }
+    .actions .icon { padding: 0; font-size: 1.05rem; }
+    .actions button:disabled { cursor: wait; opacity: .58; }
+    .more { position: relative; pointer-events: auto; }
+    .more > summary {
+      display: grid;
+      height: 42px;
+      padding: 0;
+      place-items: center;
+      list-style: none;
+      user-select: none;
+    }
+    .more > summary::-webkit-details-marker { display: none; }
+    .menu-popover {
+      position: absolute;
+      right: 0;
+      bottom: calc(100% + 7px);
+      min-width: 138px;
+      padding: 6px;
+      border: 1px solid #675176;
+      border-radius: 11px;
+      background: #18131ef5;
+      box-shadow: 0 16px 42px #0009;
+    }
+    .menu-popover button { width: 100%; min-height: 36px; padding: 7px 10px; box-shadow: none; font-size: .78rem; }
+    .catalog {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+    }
+    .catalog-tools {
+      display: grid;
+      gap: 8px;
+      padding: 10px;
+      border-bottom: 1px solid var(--line);
+      background: #1b1621f2;
+      backdrop-filter: blur(14px);
+    }
+    .search {
+      width: 100%;
+      height: 38px;
+      min-width: 0;
+      padding: 8px 11px;
+      border: 1px solid #594867;
+      border-radius: 10px;
+      color: var(--text);
+      background: #241e2c;
+    }
+    .search::placeholder { color: #988ba0; }
+    .filters {
+      display: flex;
+      gap: 6px;
+      min-width: 0;
+      overflow-x: auto;
+      padding: 0 0 2px;
+      scrollbar-width: none;
+    }
+    .filters::-webkit-scrollbar { display: none; }
+    .filters button {
+      flex: 0 0 auto;
+      padding: 6px 9px;
+      border: 1px solid #51425d;
+      border-radius: 999px;
+      color: #d8cde0;
+      cursor: pointer;
+      background: #27202f;
+      font-size: .73rem;
+    }
+    .filters button:hover { border-color: #9870af; }
+    .filters button[aria-pressed="true"] { border-color: #d49af2; color: #fff; background: #65417f; }
+    .catalog-scroll {
+      min-height: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+      overflow-anchor: none;
+      overscroll-behavior: contain;
+      scrollbar-gutter: stable;
+      scrollbar-width: thin;
+      scrollbar-color: #725887 #18141f;
+    }
+    .groups { display: grid; gap: 20px; padding: 11px 11px 24px; }
+    .groups section { display: grid; gap: 8px; }
+    .groups h2 { margin: 0; color: #cfc1d7; font-size: .78rem; font-weight: 720; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(108px, 1fr)); gap: 8px; }
+    .item {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+      padding: 7px;
+      overflow: hidden;
+      border: 1px solid #403548;
+      border-radius: 10px;
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+      background: #24202c;
+      transition: border-color .12s ease, transform .12s ease, background .12s ease;
+    }
+    .item:hover { transform: translateY(-1px); border-color: #a878bf; background: #2d2637; }
+    .item[aria-pressed="true"] { border-color: #deaaf7; box-shadow: inset 0 0 0 1px #9261aa; background: #332640; }
+    .thumb {
+      display: grid;
+      width: 100%;
+      aspect-ratio: 1;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 7px;
+      background-color: #342b45;
+      background-image:
+        linear-gradient(45deg, #2b2439 25%, transparent 25%),
+        linear-gradient(-45deg, #2b2439 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #2b2439 75%),
+        linear-gradient(-45deg, transparent 75%, #2b2439 75%);
+      background-size: 14px 14px;
+      background-position: 0 0, 0 7px, 7px -7px, -7px 0;
+    }
+    .thumb img { width: 94%; height: 94%; object-fit: contain; }
+    .name { overflow: hidden; font-size: .72rem; font-weight: 680; text-overflow: ellipsis; white-space: nowrap; }
+    .empty { margin: 0; padding: 24px 8px; color: var(--muted); text-align: center; font-size: .8rem; }
+    .toast {
+      position: fixed;
+      z-index: 100;
+      top: 14px;
+      left: 50%;
+      max-width: min(460px, calc(100% - 28px));
+      padding: 9px 12px;
+      transform: translate(-50%, -14px);
+      border: 1px solid #705583;
+      border-radius: 10px;
+      opacity: 0;
+      color: #fff;
+      pointer-events: none;
+      background: #241b2ceF;
+      box-shadow: 0 14px 38px #0008;
+      font-size: .78rem;
+      transition: opacity .15s ease, transform .15s ease;
+    }
+    .toast.visible { transform: translate(-50%, 0); opacity: 1; }
+    .toast.error { border-color: #9b5362; background: #351c24f2; }
+    .game-dialog {
+      width: min(390px, calc(100% - 28px));
+      max-width: none;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #76598a;
+      border-radius: 18px;
+      color: var(--text);
+      background: transparent;
+      box-shadow: 0 26px 80px #000b;
+    }
+    .game-dialog::backdrop {
+      background: #09070dbd;
+      backdrop-filter: blur(6px);
+    }
+    .game-dialog-card {
+      display: grid;
+      justify-items: center;
+      gap: 18px;
+      margin: 0;
+      padding: 28px;
+      text-align: center;
+      background:
+        radial-gradient(circle at 50% 0, #4b315f 0, transparent 65%),
+        #1b1621;
+    }
+    .game-dialog-icon {
+      display: grid;
+      width: 58px;
+      height: 58px;
+      place-items: center;
+      border: 1px solid #a876c1;
+      border-radius: 50%;
+      color: #fff;
+      background: #65417f;
+      font-size: 1.25rem;
+      font-weight: 850;
+      box-shadow: 0 12px 32px #0005;
+    }
+    .game-dialog[data-state="progress"] .game-dialog-icon {
+      width: 38px;
+      height: 38px;
+      border: 3px solid #5d496c;
+      border-top-color: #cf95f1;
+      background: transparent;
+      font-size: 0;
+      animation: spin .8s linear infinite;
+    }
+    .game-dialog[data-state="success"] .game-dialog-icon {
+      border-color: #9bd9b1;
+      color: #dbffe7;
+      background: #28583b;
+    }
+    .game-dialog[data-state="error"] .game-dialog-icon {
+      border-color: #cf788b;
+      color: #ffe5ea;
+      background: #713443;
+    }
+    .game-dialog-copy { display: grid; gap: 7px; }
+    .game-dialog-copy h2 { margin: 0; font-size: 1.12rem; }
+    .game-dialog-copy p { margin: 0; color: var(--muted); font-size: .85rem; line-height: 1.5; }
+    .game-dialog-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      width: 100%;
+    }
+    .game-dialog-actions[hidden] { display: none; }
+    .game-dialog-actions button {
+      min-height: 42px;
+      padding: 8px 14px;
+      border: 1px solid #675176;
+      border-radius: 10px;
+      color: var(--text);
+      cursor: pointer;
+      background: #2c2435;
+      font-weight: 720;
+    }
+    .game-dialog-actions button:hover { border-color: #d7a0f2; background: #463354; }
+    .game-dialog-actions .primary {
+      border-color: #ca90eb;
+      background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+    }
+    .game-dialog-actions button[hidden] { display: none; }
+    .game-dialog-actions:has(button:first-child[hidden]) { grid-template-columns: 1fr; }
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+    @media (max-width: 760px) {
+      .app { grid-template-columns: minmax(250px, 44%) minmax(0, 1fr); padding: 7px; gap: 7px; }
+      .grid { grid-template-columns: repeat(auto-fill, minmax(94px, 1fr)); }
+      .groups { padding: 8px 8px 20px; }
+      .actions { right: 7px; bottom: 7px; left: 7px; grid-template-columns: minmax(84px, 1fr) repeat(3, 38px); gap: 5px; }
+      .actions button, .actions summary { min-height: 38px; }
+      .more > summary { height: 38px; }
+    }
+    @media (max-width: 560px) {
+      .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(270px, 52%) minmax(0, 1fr);
+        padding: 6px;
+        gap: 6px;
+      }
+      .catalog-tools { gap: 6px; padding: 7px; }
+      .search { height: 34px; }
+      .filters button { padding: 5px 8px; }
+      .grid { grid-template-columns: repeat(auto-fill, minmax(86px, 1fr)); gap: 6px; }
+      .groups h2 { font-size: .73rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .item, .toast { transition: none; }
+      .launch-spinner, .model-spinner, .game-dialog[data-state="progress"] .game-dialog-icon { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="model" id="model">
+      <div class="character-stage is-loading" id="character-stage" role="button" tabindex="0">
+        <img class="character-image" id="character-image" alt="" hidden>
+        <div class="spine-player-host" id="spine-player" aria-hidden="true"></div>
+        <span class="model-spinner" aria-hidden="true"></span>
+      </div>
+      <div class="actions">
+        <button class="apply" id="game-save-button" type="button">Apply</button>
+        <button class="icon" id="animate-button" type="button" aria-label="Animate" title="Animate">▶</button>
+        <button class="icon" id="reset-button" type="button" aria-label="Reset" title="Reset">↺</button>
+        <details class="more" id="more-menu">
+          <summary aria-label="Options" title="Options">•••</summary>
+          <div class="menu-popover">
+            <button id="native-restore-button" type="button">Restore</button>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <div class="catalog-tools">
+        <label>
+          <span class="visually-hidden" id="search-label">Search</span>
+          <input class="search" id="search" type="search" placeholder="Search…" autocomplete="off">
+        </label>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="catalog-scroll" id="catalog-scroll" tabindex="0">
+        <div class="groups" id="groups"></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="game-dialog" id="game-dialog" aria-labelledby="game-dialog-title" aria-describedby="game-dialog-message">
+    <form class="game-dialog-card" method="dialog">
+      <div class="game-dialog-icon" id="game-dialog-icon" aria-hidden="true">▶</div>
+      <div class="game-dialog-copy">
+        <h2 id="game-dialog-title">Open in the game?</h2>
+        <p id="game-dialog-message">The look will be applied and the game will open.</p>
+      </div>
+      <div class="game-dialog-actions" id="game-dialog-actions">
+        <button id="game-dialog-cancel" type="submit" value="cancel">Cancel</button>
+        <button class="primary" id="game-dialog-confirm" type="submit" value="confirm">Open game</button>
+      </div>
+    </form>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="vendor/spine-player-4.2.92/spine-player.min.js"></script>
+  <script src="bongo-spine-preview.js"></script>
+  <script src="catalog-data.js"></script>
+  <script>
+    const uiLocale = "en";
+    const ui = (_portuguese, english) => english;
+    document.documentElement.lang = uiLocale;
+
+    const englishGroupLabels = {
+      "Todas": "All",
+      "Corpo": "Body",
+      "Partes íntimas": "Intimate",
+      "Pelos, genitais e marcas": "Details",
+      "Cabelos": "Hair",
+      "Peças de cima": "Tops",
+      "Saias": "Bottoms",
+      "Sutiãs e biquínis": "Underwear",
+      "Meias": "Socks",
+      "Calçados": "Shoes",
+      "Brinquedos": "Toys",
+    };
+    const groupLabel = (group) => englishGroupLabels[group] || group;
+
+    const search = document.getElementById("search");
+    const filters = document.getElementById("filters");
+    const groups = document.getElementById("groups");
+    const characterStage = document.getElementById("character-stage");
+    const characterImage = document.getElementById("character-image");
+    const gameSaveButton = document.getElementById("game-save-button");
+    const nativeRestoreButton = document.getElementById("native-restore-button");
+    const moreMenu = document.getElementById("more-menu");
+    const toast = document.getElementById("toast");
+    const catalogScroll = document.getElementById("catalog-scroll");
+    const gameDialog = document.getElementById("game-dialog");
+    const gameDialogIcon = document.getElementById("game-dialog-icon");
+    const gameDialogTitle = document.getElementById("game-dialog-title");
+    const gameDialogMessage = document.getElementById("game-dialog-message");
+    const gameDialogActions = document.getElementById("game-dialog-actions");
+    const gameDialogCancel = document.getElementById("game-dialog-cancel");
+    const gameDialogConfirm = document.getElementById("game-dialog-confirm");
+
+    function localizeUi() {
+      document.title = "Bongo Waifu — Unlocked Clothes";
+      search.placeholder = ui("Procurar…", "Search…");
+      document.getElementById("search-label").textContent = ui("Procurar", "Search");
+      filters.setAttribute("aria-label", ui("Categorias", "Categories"));
+      document.getElementById("catalog").setAttribute("aria-label", ui("Roupas", "Clothes"));
+      characterStage.setAttribute("aria-label", ui("Modelo; clique para animar", "Model; click to animate"));
+      gameSaveButton.textContent = ui("Aplicar", "Apply");
+      nativeRestoreButton.textContent = ui("Restaurar", "Restore");
+      const animateButton = document.getElementById("animate-button");
+      const resetButton = document.getElementById("reset-button");
+      const moreSummary = moreMenu.querySelector("summary");
+      animateButton.setAttribute("aria-label", ui("Animar", "Animate"));
+      animateButton.title = ui("Animar", "Animate");
+      resetButton.setAttribute("aria-label", ui("Redefinir visual", "Reset look"));
+      resetButton.title = ui("Redefinir visual", "Reset look");
+      moreSummary.setAttribute("aria-label", ui("Opções", "Options"));
+      moreSummary.title = ui("Opções", "Options");
+      gameDialogCancel.textContent = ui("Cancelar", "Cancel");
+    }
+
+    const toyItems = Array.from({ length: 9 }, (_, index) => ({
+      id: index + 1,
+      name: `Dick_${String(index).padStart(2, "0")}`,
+      group: "Brinquedos",
+      image: `assets/${index + 1}.png`,
+      type: "Dick",
+      skin_name: "Dick",
+      collection: "Jogo base",
+    }));
+    const allItems = [...(window.bongoCatalogItems || []), ...toyItems];
+    const requiredBodyId = 200;
+    const requiredIntimateId = 400;
+    const requiredToyId = 1;
+    const requiredBody = allItems.find((item) => item.id === requiredBodyId && item.group === "Corpo");
+    const requiredIntimate = allItems.find((item) => item.id === requiredIntimateId && item.group === "Partes íntimas");
+    const requiredToy = allItems.find((item) => item.id === requiredToyId && item.group === "Brinquedos");
+    if (!requiredBody || !requiredIntimate || !requiredToy) throw new Error("Base look is missing.");
+
+    const requiredDefaults = new Map([
+      ["Corpo", requiredBody],
+      ["Partes íntimas", requiredIntimate],
+      ["Brinquedos", requiredToy],
+    ]);
+    const groupOrder = [
+      "Corpo",
+      "Partes íntimas",
+      "Pelos, genitais e marcas",
+      "Cabelos",
+      "Peças de cima",
+      "Saias",
+      "Sutiãs e biquínis",
+      "Meias",
+      "Calçados",
+      "Brinquedos",
+    ];
+    const gameFieldByGroup = {
+      "Corpo": "SkinToneUse",
+      "Partes íntimas": "IntimatePartsUse",
+      "Pelos, genitais e marcas": "PubicAndGenitalUse",
+      "Cabelos": "HairUse",
+      "Peças de cima": "TopUse",
+      "Saias": "BottomUse",
+      "Sutiãs e biquínis": "UnderwearUse",
+      "Meias": "SocksUse",
+      "Calçados": "ShoesUse",
+      "Brinquedos": "DickUse",
+    };
+    const nativeProxyByGroup = {
+      "Corpo": 200,
+      "Partes íntimas": 400,
+      "Pelos, genitais e marcas": 1004,
+      "Cabelos": 1002,
+      "Peças de cima": 3006,
+      "Saias": 4106,
+      "Sutiãs e biquínis": 5109,
+      "Meias": 8000,
+      "Calçados": 9209,
+      "Brinquedos": 1,
+    };
+    const localVisualStorageKey = "bongo-waifu-local-visual-v2";
+    let activeGroup = "Todas";
+    let selectedByGroup = new Map(requiredDefaults);
+    let activeAnimations = { action: "Idle", level: "Level_0", stain: "body_stain_00" };
+    let spinePreview = null;
+    let renderVersion = 0;
+    let detectedGame = null;
+    let toastTimer = 0;
+    let gameDialogTimer = 0;
+
+    function formatName(value) {
+      return String(value || "")
+        .replace(/_/g, " ")
+        .replace(/([a-zÀ-ÿ])([A-Z])/g, "$1 $2")
+        .replace(/([A-Z])([A-Z][a-z])/g, "$1 $2")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function setStatus(message, error = false) {
+      window.clearTimeout(toastTimer);
+      toast.textContent = message;
+      toast.classList.toggle("error", error);
+      toast.classList.add("visible");
+      toastTimer = window.setTimeout(() => toast.classList.remove("visible"), error ? 5200 : 2600);
+    }
+
+    function setGameDialogState(state, title, message, options = {}) {
+      window.clearTimeout(gameDialogTimer);
+      gameDialog.dataset.state = state;
+      gameDialogIcon.textContent = state === "success" ? "✓" : state === "error" ? "!" : state === "confirm" ? (options.icon || "▶") : "";
+      gameDialogTitle.textContent = title;
+      gameDialogMessage.textContent = message;
+      gameDialogActions.hidden = state === "progress" || state === "success";
+      gameDialogCancel.hidden = !options.showCancel;
+      gameDialogConfirm.hidden = !options.confirmLabel;
+      gameDialogConfirm.value = state === "confirm" ? "confirm" : "dismiss";
+      gameDialogConfirm.textContent = options.confirmLabel || "";
+      gameDialog.setAttribute("aria-busy", String(state === "progress"));
+      if (!gameDialog.open) {
+        gameDialog.returnValue = "";
+        gameDialog.showModal();
+      }
+    }
+
+    function confirmGameAction({ title, message, confirmLabel, icon = "▶" }) {
+      setGameDialogState("confirm", title, message, { confirmLabel, icon, showCancel: true });
+      return new Promise((resolve) => {
+        gameDialog.addEventListener("close", () => resolve(gameDialog.returnValue === "confirm"), { once: true });
+      });
+    }
+
+    function showGameProgress(title, message) {
+      setGameDialogState("progress", title, message);
+    }
+
+    function showGameResult(state, title, message) {
+      const success = state === "success";
+      setGameDialogState(state, title, message, {
+        confirmLabel: success ? "" : ui("Fechar", "Close"),
+      });
+      if (success) {
+        gameDialogTimer = window.setTimeout(() => {
+          if (gameDialog.open) gameDialog.close("done");
+        }, 1500);
+      }
+    }
+
+    function usingLocalLauncher() {
+      return window.location.protocol === "http:" && window.location.hostname === "127.0.0.1";
+    }
+
+    async function apiJson(path, options = {}) {
+      const response = await fetch(path, options);
+      let payload = {};
+      try { payload = await response.json(); } catch { }
+      if (!response.ok) throw new Error(payload.error || ui(`Erro local ${response.status}.`, `Local error ${response.status}.`));
+      return payload;
+    }
+
+    function equippedItems() {
+      return groupOrder.map((group) => selectedByGroup.get(group)).filter(Boolean);
+    }
+
+    function itemById(id) {
+      return allItems.find((item) => item.id === Number(id));
+    }
+
+    function snapshot() {
+      return {
+        equipped: Object.fromEntries([...selectedByGroup].map(([group, item]) => [group, item.id])),
+      };
+    }
+
+    function writeLocalVisual() {
+      try { localStorage.setItem(localVisualStorageKey, JSON.stringify(snapshot())); } catch { }
+    }
+
+    function readTransferredVisual() {
+      const encoded = new URLSearchParams(window.location.hash.slice(1)).get("look");
+      if (!encoded) return null;
+      try {
+        let base64 = encoded.replaceAll("-", "+").replaceAll("_", "/");
+        while (base64.length % 4) base64 += "=";
+        const bytes = Uint8Array.from(atob(base64), (character) => character.charCodeAt(0));
+        const value = JSON.parse(new TextDecoder().decode(bytes));
+        window.history.replaceState(null, "", window.location.pathname + window.location.search);
+        return value && typeof value === "object" ? value : null;
+      } catch {
+        return null;
+      }
+    }
+
+    function readLocalVisual() {
+      const transferred = readTransferredVisual();
+      if (transferred) return transferred;
+      try {
+        const value = JSON.parse(localStorage.getItem(localVisualStorageKey) || "null");
+        return value && typeof value === "object" ? value : null;
+      } catch {
+        return null;
+      }
+    }
+
+    function restoreSnapshot(look) {
+      const restored = new Map();
+      Object.entries(look?.equipped || {}).forEach(([group, id]) => {
+        const item = itemById(id);
+        if (item?.group === group) restored.set(group, item);
+      });
+      requiredDefaults.forEach((item, group) => {
+        if (!restored.has(group)) restored.set(group, item);
+      });
+      selectedByGroup = restored;
+    }
+
+    async function renderModel(animateChange = false) {
+      const version = ++renderVersion;
+      const items = equippedItems();
+      if (!usingLocalLauncher() || !spinePreview) {
+        const fallback = items[items.length - 1];
+        if (fallback) {
+          characterImage.src = fallback.preview || fallback.image;
+          characterImage.hidden = false;
+        }
+        characterStage.classList.remove("is-loading");
+        return;
+      }
+      characterStage.classList.add("is-loading");
+      try {
+        await spinePreview.applyLook(items, activeAnimations, { animateChange });
+        if (version !== renderVersion) return;
+        characterImage.hidden = true;
+        characterStage.classList.add("spine-active");
+      } catch (error) {
+        if (version !== renderVersion) return;
+        setStatus(ui("Falha ao abrir o modelo.", "Could not open the model."), true);
+        console.error(error);
+      } finally {
+        if (version === renderVersion) characterStage.classList.remove("is-loading");
+      }
+    }
+
+    function selectItem(item) {
+      const selected = selectedByGroup.get(item.group);
+      if (selected?.id === item.id) {
+        if (requiredDefaults.has(item.group)) {
+          setStatus(ui("Escolha outra opção.", "Choose another option."));
+          return;
+        }
+        selectedByGroup.delete(item.group);
+      } else {
+        selectedByGroup.set(item.group, item);
+      }
+      updateItemSelectionState();
+      renderModel(true);
+      writeLocalVisual();
+    }
+
+    function makeFilter(name) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = groupLabel(name);
+      button.setAttribute("aria-pressed", String(activeGroup === name));
+      button.addEventListener("click", () => {
+        activeGroup = name;
+        renderFilters();
+        renderItems();
+        catalogScroll.scrollTop = 0;
+      });
+      return button;
+    }
+
+    function renderFilters() {
+      filters.replaceChildren(makeFilter("Todas"), ...groupOrder.map(makeFilter));
+    }
+
+    function makeItemCard(item) {
+      const button = document.createElement("button");
+      const thumb = document.createElement("span");
+      const image = document.createElement("img");
+      const name = document.createElement("span");
+      button.type = "button";
+      button.className = "item";
+      button.dataset.itemGroup = item.group;
+      button.dataset.itemId = String(item.id);
+      button.title = `${groupLabel(item.group)} · ${formatName(item.name)}`;
+      button.setAttribute("aria-label", button.title);
+      button.setAttribute("aria-pressed", String(selectedByGroup.get(item.group)?.id === item.id));
+      thumb.className = "thumb";
+      image.src = item.image;
+      image.alt = "";
+      name.className = "name";
+      name.textContent = formatName(item.name);
+      thumb.appendChild(image);
+      button.append(thumb, name);
+      button.addEventListener("click", () => selectItem(item));
+      return button;
+    }
+
+    function updateItemSelectionState() {
+      groups.querySelectorAll(".item[data-item-group][data-item-id]").forEach((button) => {
+        const selected = selectedByGroup.get(button.dataset.itemGroup);
+        button.setAttribute("aria-pressed", String(String(selected?.id ?? "") === button.dataset.itemId));
+      });
+    }
+
+    function renderItems() {
+      const needle = search.value.trim().toLocaleLowerCase(uiLocale);
+      const filtered = allItems.filter((item) => {
+        const groupMatches = activeGroup === "Todas" || item.group === activeGroup;
+        const text = `${item.name} ${formatName(item.name)} ${item.id} ${item.group} ${groupLabel(item.group)}`.toLocaleLowerCase(uiLocale);
+        return groupMatches && (!needle || text.includes(needle));
+      });
+      groups.replaceChildren();
+      if (!filtered.length) {
+        const empty = document.createElement("p");
+        empty.className = "empty";
+        empty.textContent = ui("Nenhum resultado", "No results");
+        groups.appendChild(empty);
+        return;
+      }
+      groupOrder.forEach((group) => {
+        const items = filtered.filter((item) => item.group === group);
+        if (!items.length) return;
+        const section = document.createElement("section");
+        if (activeGroup === "Todas") {
+          const heading = document.createElement("h2");
+          heading.textContent = groupLabel(group);
+          section.appendChild(heading);
+        }
+        const grid = document.createElement("div");
+        grid.className = "grid";
+        items.forEach((item) => grid.appendChild(makeItemCard(item)));
+        section.appendChild(grid);
+        groups.appendChild(section);
+      });
+    }
+
+    function playCharacterAnimation() {
+      if (!spinePreview?.ready) return;
+      const result = spinePreview.gameClick();
+      if (result.reason === "toy-required") setStatus(ui("Escolha um brinquedo.", "Choose a toy."));
+    }
+
+    function initializeSpinePreview() {
+      if (!usingLocalLauncher() || !window.BongoSpinePreview) return;
+      spinePreview = new window.BongoSpinePreview(document.getElementById("spine-player"), {
+        onAnimation(event) {
+          if (event?.name) characterStage.dataset.animation = event.name;
+          if (event?.layer) characterStage.dataset.animationLayer = event.layer;
+          if (event?.layer && Object.hasOwn(activeAnimations, event.layer)) activeAnimations[event.layer] = event.name;
+        },
+        onState(state, error) {
+          characterStage.classList.toggle("is-loading", state === "loading" || state === "updating");
+          if (state === "ready") characterStage.classList.add("spine-active");
+          if (state === "error") {
+            characterStage.classList.remove("spine-active");
+            setStatus(ui("Falha ao abrir as animações.", "Could not open animations."), true);
+            console.error(error);
+          }
+        },
+      });
+      spinePreview.initialize().catch((error) => {
+        setStatus(ui("Falha ao abrir as animações.", "Could not open animations."), true);
+        console.error(error);
+      });
+    }
+
+    async function detectGameInstallation() {
+      if (!usingLocalLauncher()) return;
+      try {
+        detectedGame = await apiJson("/api/status");
+      } catch {
+        detectedGame = null;
+      }
+    }
+
+    function bytesToBase64(bytes) {
+      let binary = "";
+      for (let index = 0; index < bytes.length; index += 8192) {
+        binary += String.fromCharCode(...bytes.subarray(index, index + 8192));
+      }
+      return btoa(binary);
+    }
+
+    function base64ToBytes(value) {
+      const binary = atob(value);
+      return Uint8Array.from(binary, (character) => character.charCodeAt(0));
+    }
+
+    function gameAesKey() {
+      const key = new Uint8Array(32);
+      key.set(new TextEncoder().encode("RamenIsAGoodCat"));
+      return key;
+    }
+
+    async function gameMacKey(key) {
+      const suffix = new TextEncoder().encode("::mac");
+      const material = new Uint8Array(key.length + suffix.length);
+      material.set(key);
+      material.set(suffix, key.length);
+      return new Uint8Array(await crypto.subtle.digest("SHA-256", material));
+    }
+
+    async function gameMac(plainJson, key) {
+      const imported = await crypto.subtle.importKey("raw", await gameMacKey(key), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+      return bytesToBase64(new Uint8Array(await crypto.subtle.sign("HMAC", imported, new TextEncoder().encode(plainJson))));
+    }
+
+    async function decryptGameSave(contents) {
+      const prefix = "ENCRYPTED_";
+      if (!contents.startsWith(prefix)) throw new Error(ui("Save incompatível.", "Incompatible save."));
+      const key = gameAesKey();
+      const imported = await crypto.subtle.importKey("raw", key, { name: "AES-CBC" }, false, ["decrypt"]);
+      const decrypted = await crypto.subtle.decrypt({ name: "AES-CBC", iv: new Uint8Array(16) }, imported, base64ToBytes(contents.slice(prefix.length).trim()));
+      const signedJson = new TextDecoder().decode(decrypted);
+      const match = signedJson.match(/^(.*),"_hmac":"([^"]+)"}$/s);
+      if (!match) throw new Error(ui("Save inválido.", "Invalid save."));
+      const plainJson = `${match[1]}}`;
+      if (await gameMac(plainJson, key) !== match[2]) throw new Error(ui("Assinatura inválida.", "Invalid signature."));
+      return JSON.parse(plainJson);
+    }
+
+    async function encryptGameSave(data) {
+      const key = gameAesKey();
+      const plainJson = JSON.stringify(data);
+      const signature = await gameMac(plainJson, key);
+      const signedJson = `${plainJson.slice(0, -1)},"_hmac":"${signature}"}`;
+      const imported = await crypto.subtle.importKey("raw", key, { name: "AES-CBC" }, false, ["encrypt"]);
+      const encrypted = await crypto.subtle.encrypt({ name: "AES-CBC", iv: new Uint8Array(16) }, imported, new TextEncoder().encode(signedJson));
+      return `ENCRYPTED_${bytesToBase64(new Uint8Array(encrypted))}`;
+    }
+
+    function nativeSelection() {
+      return Object.fromEntries(groupOrder.map((group) => [
+        group,
+        selectedByGroup.get(group)?.id || requiredDefaults.get(group)?.id || 0,
+      ]));
+    }
+
+    async function saveLookToGame() {
+      if (!usingLocalLauncher()) {
+        setStatus(ui("Abra pelo lançador.", "Open through the launcher."), true);
+        return;
+      }
+      gameSaveButton.disabled = true;
+      nativeRestoreButton.disabled = true;
+      const originalLabel = gameSaveButton.textContent;
+      gameSaveButton.textContent = "…";
+      try {
+        let saveSource = await apiJson("/api/game-save");
+        let gameData = await decryptGameSave(saveSource.contents);
+        const approved = await confirmGameAction({
+          title: ui("Abrir no jogo?", "Open in the game?"),
+          message: ui("O visual será aplicado e o Bongo Waifu será aberto.", "The look will be applied and Bongo Waifu will open."),
+          confirmLabel: ui("Abrir jogo", "Open game"),
+        });
+        if (!approved) return;
+        showGameProgress(
+          ui("Preparando…", "Preparing…"),
+          ui("Aplicando o visual e abrindo o jogo.", "Applying the look and opening the game.")
+        );
+        if (saveSource.running) {
+          await apiJson("/api/game-stop", { method: "POST" });
+          saveSource = await apiJson("/api/game-save");
+          if (saveSource.running) throw new Error(ui("Feche o jogo e tente novamente.", "Close the game and try again."));
+          gameData = await decryptGameSave(saveSource.contents);
+        }
+        const selection = nativeSelection();
+        Object.entries(gameFieldByGroup).forEach(([group, field]) => {
+          const targetId = Number(selection[group] || 0);
+          const proxyId = targetId ? Number(nativeProxyByGroup[group]) : 0;
+          gameData[field] = proxyId;
+          gameData[`desired${field}`] = proxyId;
+          if (`lastVerified${field}` in gameData) gameData[`lastVerified${field}`] = proxyId;
+        });
+        const updated = await encryptGameSave(gameData);
+        await apiJson("/api/native-apply", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ selection, original: saveSource.contents, updated, restartGame: true }),
+        });
+        showGameResult("success", ui("Pronto", "Done"), ui("O jogo está abrindo.", "The game is opening."));
+        window.setTimeout(detectGameInstallation, 2500);
+      } catch (error) {
+        showGameResult(
+          "error",
+          ui("Não foi possível abrir", "Could not open"),
+          error?.message || String(error)
+        );
+      } finally {
+        gameSaveButton.disabled = false;
+        nativeRestoreButton.disabled = false;
+        gameSaveButton.textContent = originalLabel;
+      }
+    }
+
+    async function restoreNativeLook() {
+      if (!usingLocalLauncher()) {
+        setStatus(ui("Abra pelo lançador.", "Open through the launcher."), true);
+        return;
+      }
+      const approved = await confirmGameAction({
+        title: ui("Restaurar visual?", "Restore the look?"),
+        message: ui("O visual original será restaurado e o jogo será aberto.", "The original look will be restored and the game will open."),
+        confirmLabel: ui("Restaurar", "Restore"),
+        icon: "↺",
+      });
+      if (!approved) return;
+      moreMenu.open = false;
+      gameSaveButton.disabled = true;
+      nativeRestoreButton.disabled = true;
+      try {
+        showGameProgress(
+          ui("Restaurando…", "Restoring…"),
+          ui("Preparando o visual original.", "Preparing the original look.")
+        );
+        const status = detectedGame || await apiJson("/api/status");
+        if (status.running) await apiJson("/api/game-stop", { method: "POST" });
+        await apiJson("/api/native-restore", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ restartGame: true }),
+        });
+        showGameResult("success", ui("Pronto", "Done"), ui("O jogo está abrindo.", "The game is opening."));
+        window.setTimeout(detectGameInstallation, 2500);
+      } catch (error) {
+        showGameResult(
+          "error",
+          ui("Não foi possível restaurar", "Could not restore"),
+          error?.message || String(error)
+        );
+      } finally {
+        gameSaveButton.disabled = false;
+        nativeRestoreButton.disabled = false;
+      }
+    }
+
+    function resetLook() {
+      selectedByGroup = new Map(requiredDefaults);
+      activeAnimations = { action: "Idle", level: "Level_0", stain: "body_stain_00" };
+      updateItemSelectionState();
+      renderModel(false);
+      writeLocalVisual();
+      setStatus(ui("Redefinido", "Reset"));
+    }
+
+    localizeUi();
+    const restored = readLocalVisual();
+    if (restored) restoreSnapshot(restored);
+    renderFilters();
+    renderItems();
+    initializeSpinePreview();
+    renderModel(false);
+    detectGameInstallation();
+
+    search.addEventListener("input", () => {
+      renderItems();
+      catalogScroll.scrollTop = 0;
+    });
+    characterStage.addEventListener("click", playCharacterAnimation);
+    characterStage.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        playCharacterAnimation();
+      }
+    });
+    document.getElementById("animate-button").addEventListener("click", playCharacterAnimation);
+    document.getElementById("reset-button").addEventListener("click", resetLook);
+    gameSaveButton.addEventListener("click", saveLookToGame);
+    nativeRestoreButton.addEventListener("click", restoreNativeLook);
+    gameDialog.addEventListener("cancel", (event) => {
+      if (!['confirm', 'error'].includes(gameDialog.dataset.state)) event.preventDefault();
+    });
+    gameDialog.addEventListener("click", (event) => {
+      if (event.target === gameDialog && gameDialog.dataset.state === "confirm") gameDialog.close("cancel");
+    });
+  </script>
+</body>
+</html>

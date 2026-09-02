@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Bongo preview discovery</title>
+<script>
+  fetch("/api/status", { cache: "no-store" })
+    .then((response) => response.ok ? response.json() : Promise.reject())
+    .then((status) => {
+      window.parent.postMessage({
+        source: "bongo-preview-discovery",
+        apiVersion: Number(status.apiVersion) || 0,
+      }, "*");
+    })
+    .catch(() => {});
+</script>

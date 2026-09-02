@@ -1,0 +1,6371 @@
+[
+  {
+    "id": 0,
+    "name": "Null",
+    "type_id": -1,
+    "type": "Null",
+    "skin_name_id": 0,
+    "skin_name": "Null",
+    "texture_path_id": 0,
+    "texture_name": "",
+    "texture_size": null,
+    "icon_path_id": 631
+  },
+  {
+    "id": 1,
+    "name": "Dick_00",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 514,
+    "texture_name": "Dick_00",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 662
+  },
+  {
+    "id": 2,
+    "name": "Dick_01",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 372,
+    "texture_name": "Dick_01",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 858
+  },
+  {
+    "id": 3,
+    "name": "Dick_02",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 204,
+    "texture_name": "Dick_02",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 915
+  },
+  {
+    "id": 4,
+    "name": "Dick_03",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 297,
+    "texture_name": "Dick_03",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 768
+  },
+  {
+    "id": 5,
+    "name": "Dick_04",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 150,
+    "texture_name": "Dick_04",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 590
+  },
+  {
+    "id": 6,
+    "name": "Dick_05",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 219,
+    "texture_name": "Dick_05",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 983
+  },
+  {
+    "id": 7,
+    "name": "Dick_06",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 480,
+    "texture_name": "Dick_06",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 711
+  },
+  {
+    "id": 8,
+    "name": "Dick_07",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 235,
+    "texture_name": "Dick_07",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 960
+  },
+  {
+    "id": 9,
+    "name": "Dick_08",
+    "type_id": 0,
+    "type": "Dick",
+    "skin_name_id": 1,
+    "skin_name": "Dick",
+    "texture_path_id": 233,
+    "texture_name": "Dick_08",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 720
+  },
+  {
+    "id": 200,
+    "name": "Body_Base",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 362,
+    "texture_name": "0200",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 976
+  },
+  {
+    "id": 201,
+    "name": "Body_PaleSakura",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 146,
+    "texture_name": "0201",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 721
+  },
+  {
+    "id": 202,
+    "name": "Body_Tan",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 211,
+    "texture_name": "0202",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 798
+  },
+  {
+    "id": 203,
+    "name": "Body_ShinyYellowDark",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 171,
+    "texture_name": "0203",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 633
+  },
+  {
+    "id": 204,
+    "name": "Body_Dark",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 234,
+    "texture_name": "0204",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 982
+  },
+  {
+    "id": 205,
+    "name": "Body_Greyish",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 421,
+    "texture_name": "0205",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 857
+  },
+  {
+    "id": 206,
+    "name": "Body_Ebony",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 288,
+    "texture_name": "0206",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 959
+  },
+  {
+    "id": 207,
+    "name": "Body_SunMarks_BoylegSwimsuit",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 345,
+    "texture_name": "0207",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 939
+  },
+  {
+    "id": 208,
+    "name": "Body_SunMarks_FullCoverage",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 239,
+    "texture_name": "0208",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 703
+  },
+  {
+    "id": 209,
+    "name": "Body_SunMarks_Bikini",
+    "type_id": 100,
+    "type": "SkinTone",
+    "skin_name_id": 2,
+    "skin_name": "Body",
+    "texture_path_id": 382,
+    "texture_name": "0209",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 729
+  },
+  {
+    "id": 400,
+    "name": "IntimateParts_Standard_SoftEdge_Pink",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 169,
+    "texture_name": "0400",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 811
+  },
+  {
+    "id": 401,
+    "name": "IntimateParts_Standard_SoftEdge_Dark",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 357,
+    "texture_name": "0401",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 723
+  },
+  {
+    "id": 402,
+    "name": "IntimateParts_Tiny_SoftEdge_Inset_Pink",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 257,
+    "texture_name": "0402",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1018
+  },
+  {
+    "id": 403,
+    "name": "IntimateParts_Tiny_SoftEdge_Inset_Dark",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 503,
+    "texture_name": "0403",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 996
+  },
+  {
+    "id": 404,
+    "name": "IntimateParts_Tiny_SoftEdge_Pink",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 467,
+    "texture_name": "0404",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1042
+  },
+  {
+    "id": 405,
+    "name": "IntimateParts_Tiny_SoftEdge_Dark",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 486,
+    "texture_name": "0405",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 583
+  },
+  {
+    "id": 406,
+    "name": "IntimateParts_Wide_SoftEdge_Inset_Pink",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 139,
+    "texture_name": "0406",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 645
+  },
+  {
+    "id": 407,
+    "name": "IntimateParts_Wide_SoftEdge_Inset_Dark",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 302,
+    "texture_name": "0407",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1023
+  },
+  {
+    "id": 408,
+    "name": "IntimateParts_Wide_SoftEdge_Pink",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 477,
+    "texture_name": "0408",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 987
+  },
+  {
+    "id": 409,
+    "name": "IntimateParts_Wide_SoftEdge_Dark",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 109,
+    "texture_name": "0409",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 730
+  },
+  {
+    "id": 410,
+    "name": "IntimateParts_Standard_SoftEdge_Inset_Pink",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 333,
+    "texture_name": "0410",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 647
+  },
+  {
+    "id": 411,
+    "name": "IntimateParts_Standard_SoftEdge_Inset_Dark",
+    "type_id": 101,
+    "type": "IntimateParts",
+    "skin_name_id": 3,
+    "skin_name": "IntimateParts",
+    "texture_path_id": 500,
+    "texture_name": "0411",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 962
+  },
+  {
+    "id": 600,
+    "name": "Futanari_Big",
+    "type_id": 102,
+    "type": "PubicAndGenital",
+    "skin_name_id": 4,
+    "skin_name": "PubicAndGenital_Futa_Big",
+    "texture_path_id": 0,
+    "texture_name": "",
+    "texture_size": null,
+    "icon_path_id": 822
+  },
+  {
+    "id": 601,
+    "name": "Futanari_Small",
+    "type_id": 102,
+    "type": "PubicAndGenital",
+    "skin_name_id": 5,
+    "skin_name": "PubicAndGenital_Futa_Small",
+    "texture_path_id": 0,
+    "texture_name": "",
+    "texture_size": null,
+    "icon_path_id": 652
+  },
+  {
+    "id": 602,
+    "name": "PubicHair_Sparse",
+    "type_id": 102,
+    "type": "PubicAndGenital",
+    "skin_name_id": 8,
+    "skin_name": "PubicAndGenital_PubicHair_Multiply",
+    "texture_path_id": 461,
+    "texture_name": "0602",
+    "texture_size": [
+      512,
+      512
+    ],
+    "icon_path_id": 625
+  },
+  {
+    "id": 603,
+    "name": "PubicHair_Dense",
+    "type_id": 102,
+    "type": "PubicAndGenital",
+    "skin_name_id": 8,
+    "skin_name": "PubicAndGenital_PubicHair_Multiply",
+    "texture_path_id": 282,
+    "texture_name": "0603",
+    "texture_size": [
+      512,
+      512
+    ],
+    "icon_path_id": 684
+  },
+  {
+    "id": 610,
+    "name": "TrampStamp_00",
+    "type_id": 102,
+    "type": "PubicAndGenital",
+    "skin_name_id": 6,
+    "skin_name": "PubicAndGenital_PubicHair",
+    "texture_path_id": 117,
+    "texture_name": "0610",
+    "texture_size": [
+      512,
+      512
+    ],
+    "icon_path_id": 877
+  },
+  {
+    "id": 611,
+    "name": "TrampStamp_01",
+    "type_id": 102,
+    "type": "PubicAndGenital",
+    "skin_name_id": 6,
+    "skin_name": "PubicAndGenital_PubicHair",
+    "texture_path_id": 416,
+    "texture_name": "0611",
+    "texture_size": [
+      512,
+      512
+    ],
+    "icon_path_id": 622
+  },
+  {
+    "id": 1000,
+    "name": "ShortHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 100,
+    "skin_name": "Hair_ShortHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 743
+  },
+  {
+    "id": 1001,
+    "name": "ShortHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 100,
+    "skin_name": "Hair_ShortHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 696
+  },
+  {
+    "id": 1002,
+    "name": "ShortHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 100,
+    "skin_name": "Hair_ShortHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1015
+  },
+  {
+    "id": 1003,
+    "name": "ShortHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 100,
+    "skin_name": "Hair_ShortHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 873
+  },
+  {
+    "id": 1004,
+    "name": "ShortHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 100,
+    "skin_name": "Hair_ShortHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 607
+  },
+  {
+    "id": 1005,
+    "name": "ShortHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 100,
+    "skin_name": "Hair_ShortHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 737
+  },
+  {
+    "id": 1006,
+    "name": "ShortHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 100,
+    "skin_name": "Hair_ShortHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 884
+  },
+  {
+    "id": 1010,
+    "name": "MediumLengthHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 101,
+    "skin_name": "Hair_MediumLengthHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 842
+  },
+  {
+    "id": 1011,
+    "name": "MediumLengthHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 101,
+    "skin_name": "Hair_MediumLengthHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 963
+  },
+  {
+    "id": 1012,
+    "name": "MediumLengthHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 101,
+    "skin_name": "Hair_MediumLengthHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1007
+  },
+  {
+    "id": 1013,
+    "name": "MediumLengthHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 101,
+    "skin_name": "Hair_MediumLengthHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 639
+  },
+  {
+    "id": 1014,
+    "name": "MediumLengthHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 101,
+    "skin_name": "Hair_MediumLengthHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 776
+  },
+  {
+    "id": 1015,
+    "name": "MediumLengthHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 101,
+    "skin_name": "Hair_MediumLengthHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 722
+  },
+  {
+    "id": 1016,
+    "name": "MediumLengthHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 101,
+    "skin_name": "Hair_MediumLengthHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 972
+  },
+  {
+    "id": 1020,
+    "name": "TwintailsHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 102,
+    "skin_name": "Hair_TwintailsHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1017
+  },
+  {
+    "id": 1021,
+    "name": "TwintailsHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 102,
+    "skin_name": "Hair_TwintailsHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 589
+  },
+  {
+    "id": 1022,
+    "name": "TwintailsHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 102,
+    "skin_name": "Hair_TwintailsHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 753
+  },
+  {
+    "id": 1023,
+    "name": "TwintailsHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 102,
+    "skin_name": "Hair_TwintailsHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 772
+  },
+  {
+    "id": 1024,
+    "name": "TwintailsHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 102,
+    "skin_name": "Hair_TwintailsHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 928
+  },
+  {
+    "id": 1025,
+    "name": "TwintailsHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 102,
+    "skin_name": "Hair_TwintailsHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 957
+  },
+  {
+    "id": 1026,
+    "name": "TwintailsHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 102,
+    "skin_name": "Hair_TwintailsHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 593
+  },
+  {
+    "id": 1030,
+    "name": "Afro_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 103,
+    "skin_name": "Hair_Afro",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 813
+  },
+  {
+    "id": 1031,
+    "name": "Afro_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 103,
+    "skin_name": "Hair_Afro",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 706
+  },
+  {
+    "id": 1032,
+    "name": "Afro_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 103,
+    "skin_name": "Hair_Afro",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 912
+  },
+  {
+    "id": 1033,
+    "name": "Afro_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 103,
+    "skin_name": "Hair_Afro",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 666
+  },
+  {
+    "id": 1034,
+    "name": "Afro_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 103,
+    "skin_name": "Hair_Afro",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 895
+  },
+  {
+    "id": 1035,
+    "name": "Afro_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 103,
+    "skin_name": "Hair_Afro",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 779
+  },
+  {
+    "id": 1036,
+    "name": "Afro_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 103,
+    "skin_name": "Hair_Afro",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 592
+  },
+  {
+    "id": 1100,
+    "name": "PixieShortHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 104,
+    "skin_name": "Hair_PixieShortHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 901
+  },
+  {
+    "id": 1101,
+    "name": "PixieShortHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 104,
+    "skin_name": "Hair_PixieShortHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 880
+  },
+  {
+    "id": 1102,
+    "name": "PixieShortHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 104,
+    "skin_name": "Hair_PixieShortHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 715
+  },
+  {
+    "id": 1103,
+    "name": "PixieShortHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 104,
+    "skin_name": "Hair_PixieShortHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 689
+  },
+  {
+    "id": 1104,
+    "name": "PixieShortHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 104,
+    "skin_name": "Hair_PixieShortHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 628
+  },
+  {
+    "id": 1105,
+    "name": "PixieShortHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 104,
+    "skin_name": "Hair_PixieShortHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 573
+  },
+  {
+    "id": 1106,
+    "name": "PixieShortHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 104,
+    "skin_name": "Hair_PixieShortHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 709
+  },
+  {
+    "id": 1110,
+    "name": "LongWavyHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 105,
+    "skin_name": "Hair_LongWavyHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 968
+  },
+  {
+    "id": 1111,
+    "name": "LongWavyHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 105,
+    "skin_name": "Hair_LongWavyHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 600
+  },
+  {
+    "id": 1112,
+    "name": "LongWavyHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 105,
+    "skin_name": "Hair_LongWavyHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 899
+  },
+  {
+    "id": 1113,
+    "name": "LongWavyHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 105,
+    "skin_name": "Hair_LongWavyHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 958
+  },
+  {
+    "id": 1114,
+    "name": "LongWavyHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 105,
+    "skin_name": "Hair_LongWavyHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 839
+  },
+  {
+    "id": 1115,
+    "name": "LongWavyHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 105,
+    "skin_name": "Hair_LongWavyHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 678
+  },
+  {
+    "id": 1116,
+    "name": "LongWavyHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 105,
+    "skin_name": "Hair_LongWavyHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 701
+  },
+  {
+    "id": 1120,
+    "name": "PigtailsHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 106,
+    "skin_name": "Hair_PigtailsHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 799
+  },
+  {
+    "id": 1121,
+    "name": "PigtailsHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 106,
+    "skin_name": "Hair_PigtailsHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1003
+  },
+  {
+    "id": 1122,
+    "name": "PigtailsHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 106,
+    "skin_name": "Hair_PigtailsHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 944
+  },
+  {
+    "id": 1123,
+    "name": "PigtailsHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 106,
+    "skin_name": "Hair_PigtailsHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 672
+  },
+  {
+    "id": 1124,
+    "name": "PigtailsHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 106,
+    "skin_name": "Hair_PigtailsHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 579
+  },
+  {
+    "id": 1125,
+    "name": "PigtailsHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 106,
+    "skin_name": "Hair_PigtailsHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 770
+  },
+  {
+    "id": 1126,
+    "name": "PigtailsHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 106,
+    "skin_name": "Hair_PigtailsHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 965
+  },
+  {
+    "id": 1200,
+    "name": "BobHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 107,
+    "skin_name": "Hair_BobHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 967
+  },
+  {
+    "id": 1201,
+    "name": "BobHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 107,
+    "skin_name": "Hair_BobHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 623
+  },
+  {
+    "id": 1202,
+    "name": "BobHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 107,
+    "skin_name": "Hair_BobHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 988
+  },
+  {
+    "id": 1203,
+    "name": "BobHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 107,
+    "skin_name": "Hair_BobHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 735
+  },
+  {
+    "id": 1204,
+    "name": "BobHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 107,
+    "skin_name": "Hair_BobHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 833
+  },
+  {
+    "id": 1205,
+    "name": "BobHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 107,
+    "skin_name": "Hair_BobHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 825
+  },
+  {
+    "id": 1206,
+    "name": "BobHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 107,
+    "skin_name": "Hair_BobHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 651
+  },
+  {
+    "id": 1210,
+    "name": "LongStraightHair_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 108,
+    "skin_name": "Hair_LongStraightHair",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 826
+  },
+  {
+    "id": 1211,
+    "name": "LongStraightHair_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 108,
+    "skin_name": "Hair_LongStraightHair",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 997
+  },
+  {
+    "id": 1212,
+    "name": "LongStraightHair_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 108,
+    "skin_name": "Hair_LongStraightHair",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 792
+  },
+  {
+    "id": 1213,
+    "name": "LongStraightHair_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 108,
+    "skin_name": "Hair_LongStraightHair",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 830
+  },
+  {
+    "id": 1214,
+    "name": "LongStraightHair_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 108,
+    "skin_name": "Hair_LongStraightHair",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 784
+  },
+  {
+    "id": 1215,
+    "name": "LongStraightHair_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 108,
+    "skin_name": "Hair_LongStraightHair",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 714
+  },
+  {
+    "id": 1216,
+    "name": "LongStraightHair_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 108,
+    "skin_name": "Hair_LongStraightHair",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 669
+  },
+  {
+    "id": 1220,
+    "name": "SpaceBuns_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 109,
+    "skin_name": "Hair_SpaceBuns",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 794
+  },
+  {
+    "id": 1221,
+    "name": "SpaceBuns_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 109,
+    "skin_name": "Hair_SpaceBuns",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 742
+  },
+  {
+    "id": 1222,
+    "name": "SpaceBuns_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 109,
+    "skin_name": "Hair_SpaceBuns",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 921
+  },
+  {
+    "id": 1223,
+    "name": "SpaceBuns_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 109,
+    "skin_name": "Hair_SpaceBuns",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 659
+  },
+  {
+    "id": 1224,
+    "name": "SpaceBuns_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 109,
+    "skin_name": "Hair_SpaceBuns",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 581
+  },
+  {
+    "id": 1225,
+    "name": "SpaceBuns_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 109,
+    "skin_name": "Hair_SpaceBuns",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 805
+  },
+  {
+    "id": 1226,
+    "name": "SpaceBuns_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 109,
+    "skin_name": "Hair_SpaceBuns",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 893
+  },
+  {
+    "id": 1300,
+    "name": "HighSidePonytail_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 110,
+    "skin_name": "Hair_HighSidePonytail",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 867
+  },
+  {
+    "id": 1301,
+    "name": "HighSidePonytail_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 110,
+    "skin_name": "Hair_HighSidePonytail",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 956
+  },
+  {
+    "id": 1302,
+    "name": "HighSidePonytail_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 110,
+    "skin_name": "Hair_HighSidePonytail",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 823
+  },
+  {
+    "id": 1303,
+    "name": "HighSidePonytail_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 110,
+    "skin_name": "Hair_HighSidePonytail",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 611
+  },
+  {
+    "id": 1304,
+    "name": "HighSidePonytail_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 110,
+    "skin_name": "Hair_HighSidePonytail",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 598
+  },
+  {
+    "id": 1305,
+    "name": "HighSidePonytail_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 110,
+    "skin_name": "Hair_HighSidePonytail",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 614
+  },
+  {
+    "id": 1306,
+    "name": "HighSidePonytail_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 110,
+    "skin_name": "Hair_HighSidePonytail",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 664
+  },
+  {
+    "id": 1310,
+    "name": "HighBun_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 111,
+    "skin_name": "Hair_HighBun",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 998
+  },
+  {
+    "id": 1311,
+    "name": "HighBun_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 111,
+    "skin_name": "Hair_HighBun",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 942
+  },
+  {
+    "id": 1312,
+    "name": "HighBun_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 111,
+    "skin_name": "Hair_HighBun",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 920
+  },
+  {
+    "id": 1313,
+    "name": "HighBun_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 111,
+    "skin_name": "Hair_HighBun",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 791
+  },
+  {
+    "id": 1314,
+    "name": "HighBun_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 111,
+    "skin_name": "Hair_HighBun",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 618
+  },
+  {
+    "id": 1315,
+    "name": "HighBun_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 111,
+    "skin_name": "Hair_HighBun",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 930
+  },
+  {
+    "id": 1316,
+    "name": "HighBun_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 111,
+    "skin_name": "Hair_HighBun",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 938
+  },
+  {
+    "id": 1320,
+    "name": "FrenchBraid_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 112,
+    "skin_name": "Hair_FrenchBraid",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 937
+  },
+  {
+    "id": 1321,
+    "name": "FrenchBraid_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 112,
+    "skin_name": "Hair_FrenchBraid",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 719
+  },
+  {
+    "id": 1322,
+    "name": "FrenchBraid_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 112,
+    "skin_name": "Hair_FrenchBraid",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 756
+  },
+  {
+    "id": 1323,
+    "name": "FrenchBraid_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 112,
+    "skin_name": "Hair_FrenchBraid",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 953
+  },
+  {
+    "id": 1324,
+    "name": "FrenchBraid_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 112,
+    "skin_name": "Hair_FrenchBraid",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 708
+  },
+  {
+    "id": 1325,
+    "name": "FrenchBraid_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 112,
+    "skin_name": "Hair_FrenchBraid",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1029
+  },
+  {
+    "id": 1326,
+    "name": "FrenchBraid_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 112,
+    "skin_name": "Hair_FrenchBraid",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 687
+  },
+  {
+    "id": 1400,
+    "name": "SingleBraid_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 113,
+    "skin_name": "Hair_SingleBraid",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 754
+  },
+  {
+    "id": 1401,
+    "name": "SingleBraid_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 113,
+    "skin_name": "Hair_SingleBraid",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 710
+  },
+  {
+    "id": 1402,
+    "name": "SingleBraid_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 113,
+    "skin_name": "Hair_SingleBraid",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 999
+  },
+  {
+    "id": 1403,
+    "name": "SingleBraid_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 113,
+    "skin_name": "Hair_SingleBraid",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 602
+  },
+  {
+    "id": 1404,
+    "name": "SingleBraid_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 113,
+    "skin_name": "Hair_SingleBraid",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 653
+  },
+  {
+    "id": 1405,
+    "name": "SingleBraid_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 113,
+    "skin_name": "Hair_SingleBraid",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1028
+  },
+  {
+    "id": 1406,
+    "name": "SingleBraid_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 113,
+    "skin_name": "Hair_SingleBraid",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 927
+  },
+  {
+    "id": 1410,
+    "name": "CrisscrossUpdo_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 114,
+    "skin_name": "Hair_CrisscrossUpdo",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 621
+  },
+  {
+    "id": 1411,
+    "name": "CrisscrossUpdo_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 114,
+    "skin_name": "Hair_CrisscrossUpdo",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 989
+  },
+  {
+    "id": 1412,
+    "name": "CrisscrossUpdo_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 114,
+    "skin_name": "Hair_CrisscrossUpdo",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 932
+  },
+  {
+    "id": 1413,
+    "name": "CrisscrossUpdo_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 114,
+    "skin_name": "Hair_CrisscrossUpdo",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 766
+  },
+  {
+    "id": 1414,
+    "name": "CrisscrossUpdo_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 114,
+    "skin_name": "Hair_CrisscrossUpdo",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 681
+  },
+  {
+    "id": 1415,
+    "name": "CrisscrossUpdo_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 114,
+    "skin_name": "Hair_CrisscrossUpdo",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 748
+  },
+  {
+    "id": 1416,
+    "name": "CrisscrossUpdo_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 114,
+    "skin_name": "Hair_CrisscrossUpdo",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 943
+  },
+  {
+    "id": 1500,
+    "name": "LongStraightHair_headband_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 115,
+    "skin_name": "Hair_LongStraightHair_Headband",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 780
+  },
+  {
+    "id": 1501,
+    "name": "LongStraightHair_Headband_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 115,
+    "skin_name": "Hair_LongStraightHair_Headband",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1024
+  },
+  {
+    "id": 1502,
+    "name": "LongStraightHair_Headband_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 115,
+    "skin_name": "Hair_LongStraightHair_Headband",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 688
+  },
+  {
+    "id": 1503,
+    "name": "LongStraightHair_Headband_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 115,
+    "skin_name": "Hair_LongStraightHair_Headband",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 746
+  },
+  {
+    "id": 1504,
+    "name": "LongStraightHair_Headband_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 115,
+    "skin_name": "Hair_LongStraightHair_Headband",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 786
+  },
+  {
+    "id": 1505,
+    "name": "LongStraightHair_Headband_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 115,
+    "skin_name": "Hair_LongStraightHair_Headband",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 824
+  },
+  {
+    "id": 1506,
+    "name": "LongStraightHair_Headband_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 115,
+    "skin_name": "Hair_LongStraightHair_Headband",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 872
+  },
+  {
+    "id": 1510,
+    "name": "LongStraightHair_BowHeadband_Black",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 116,
+    "skin_name": "Hair_LongStraightHair_BowHeadband",
+    "texture_path_id": 446,
+    "texture_name": "1000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 739
+  },
+  {
+    "id": 1511,
+    "name": "LongStraightHair_BowHeadband_Brown",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 116,
+    "skin_name": "Hair_LongStraightHair_BowHeadband",
+    "texture_path_id": 415,
+    "texture_name": "1001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 713
+  },
+  {
+    "id": 1512,
+    "name": "LongStraightHair_BowHeadband_Yellow",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 116,
+    "skin_name": "Hair_LongStraightHair_BowHeadband",
+    "texture_path_id": 199,
+    "texture_name": "1002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 632
+  },
+  {
+    "id": 1513,
+    "name": "LongStraightHair_BowHeadband_White",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 116,
+    "skin_name": "Hair_LongStraightHair_BowHeadband",
+    "texture_path_id": 93,
+    "texture_name": "1003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1037
+  },
+  {
+    "id": 1514,
+    "name": "LongStraightHair_BowHeadband_Pink",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 116,
+    "skin_name": "Hair_LongStraightHair_BowHeadband",
+    "texture_path_id": 411,
+    "texture_name": "1004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 757
+  },
+  {
+    "id": 1515,
+    "name": "LongStraightHair_BowHeadband_Purple",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 116,
+    "skin_name": "Hair_LongStraightHair_BowHeadband",
+    "texture_path_id": 259,
+    "texture_name": "1005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 803
+  },
+  {
+    "id": 1516,
+    "name": "LongStraightHair_BowHeadband_Blue",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 116,
+    "skin_name": "Hair_LongStraightHair_BowHeadband",
+    "texture_path_id": 451,
+    "texture_name": "1006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1020
+  },
+  {
+    "id": 3000,
+    "name": "TShirt_White",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 224,
+    "texture_name": "3000",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 949
+  },
+  {
+    "id": 3001,
+    "name": "TShirt_Pink",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 143,
+    "texture_name": "3001",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 979
+  },
+  {
+    "id": 3002,
+    "name": "TShirt_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 95,
+    "texture_name": "3002",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 935
+  },
+  {
+    "id": 3003,
+    "name": "TShirt_Black",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 226,
+    "texture_name": "3003",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 718
+  },
+  {
+    "id": 3004,
+    "name": "Kimono_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 293,
+    "texture_name": "3004",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 929
+  },
+  {
+    "id": 3005,
+    "name": "Kimono_Red",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 464,
+    "texture_name": "3005",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1041
+  },
+  {
+    "id": 3006,
+    "name": "Kimono_Yellow",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 504,
+    "texture_name": "3006",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 575
+  },
+  {
+    "id": 3007,
+    "name": "Kimono_Pink",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 402,
+    "texture_name": "3007",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 608
+  },
+  {
+    "id": 3008,
+    "name": "Polo_Green",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 394,
+    "texture_name": "3008",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 783
+  },
+  {
+    "id": 3009,
+    "name": "Polo_Red",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 443,
+    "texture_name": "3009",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 874
+  },
+  {
+    "id": 3010,
+    "name": "Polo_Purple",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 385,
+    "texture_name": "3010",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 818
+  },
+  {
+    "id": 3011,
+    "name": "Polo_Black",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 272,
+    "texture_name": "3011",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 902
+  },
+  {
+    "id": 3012,
+    "name": "CroppedTop_Bue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 441,
+    "texture_name": "3012",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 749
+  },
+  {
+    "id": 3013,
+    "name": "CroppedTop_Pink",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 511,
+    "texture_name": "3013",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 820
+  },
+  {
+    "id": 3014,
+    "name": "CroppedTop_White",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 390,
+    "texture_name": "3014",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 724
+  },
+  {
+    "id": 3015,
+    "name": "CroppedTop_Black",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 216,
+    "texture_name": "3015",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 878
+  },
+  {
+    "id": 3100,
+    "name": "Apron_White",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 509,
+    "texture_name": "3100",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 683
+  },
+  {
+    "id": 3101,
+    "name": "Apron_Pink",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 189,
+    "texture_name": "3101",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 827
+  },
+  {
+    "id": 3102,
+    "name": "Apron_Purple",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 485,
+    "texture_name": "3102",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1032
+  },
+  {
+    "id": 3103,
+    "name": "Apron_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 118,
+    "texture_name": "3103",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 745
+  },
+  {
+    "id": 3104,
+    "name": "BathTowel_White",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 187,
+    "texture_name": "3104",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 649
+  },
+  {
+    "id": 3105,
+    "name": "BathTowel_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 253,
+    "texture_name": "3105",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 778
+  },
+  {
+    "id": 3106,
+    "name": "BathTowel_Pink",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 222,
+    "texture_name": "3106",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 969
+  },
+  {
+    "id": 3107,
+    "name": "BathTowel_Yellow",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 386,
+    "texture_name": "3107",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 690
+  },
+  {
+    "id": 3200,
+    "name": "SleevelessCroppedTop_Black",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 77,
+    "texture_name": "3200",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 809
+  },
+  {
+    "id": 3201,
+    "name": "SleevelessCroppedTop_Red",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 92,
+    "texture_name": "3201",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 769
+  },
+  {
+    "id": 3202,
+    "name": "SleevelessCroppedTop_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 462,
+    "texture_name": "3202",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 838
+  },
+  {
+    "id": 3203,
+    "name": "SleevelessCroppedTop_Yellow",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 437,
+    "texture_name": "3203",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 852
+  },
+  {
+    "id": 3204,
+    "name": "WetTShirt_White",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 85,
+    "texture_name": "3204",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1034
+  },
+  {
+    "id": 3205,
+    "name": "WetTShirt_Pink",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 113,
+    "texture_name": "3205",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1035
+  },
+  {
+    "id": 3206,
+    "name": "WetTShirt_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 379,
+    "texture_name": "3206",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 875
+  },
+  {
+    "id": 3207,
+    "name": "WetTShirt_Purple",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 180,
+    "texture_name": "3207",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 654
+  },
+  {
+    "id": 3300,
+    "name": "OffTheShoulder_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 251,
+    "texture_name": "3300",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 777
+  },
+  {
+    "id": 3301,
+    "name": "OffTheShoulder_Red",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 497,
+    "texture_name": "3301",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 634
+  },
+  {
+    "id": 3302,
+    "name": "OffTheShoulder_Purple",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 373,
+    "texture_name": "3302",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 671
+  },
+  {
+    "id": 3303,
+    "name": "OffTheShoulder_Black",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 353,
+    "texture_name": "3303",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 657
+  },
+  {
+    "id": 3304,
+    "name": "OffShoulderPuffSleeveCropTop_White",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 160,
+    "texture_name": "3304",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 680
+  },
+  {
+    "id": 3305,
+    "name": "OffShoulderPuffSleeveCropTop_Pink",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 305,
+    "texture_name": "3305",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 964
+  },
+  {
+    "id": 3306,
+    "name": "OffShoulderPuffSleeveCropTop_Blue",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 290,
+    "texture_name": "3306",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 804
+  },
+  {
+    "id": 3307,
+    "name": "OffShoulderPuffSleeveCropTop_Black",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 419,
+    "texture_name": "3307",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 916
+  },
+  {
+    "id": 3400,
+    "name": "NurseTop",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 397,
+    "texture_name": "3400",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 629
+  },
+  {
+    "id": 3401,
+    "name": "SportsTop",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 449,
+    "texture_name": "3401",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 601
+  },
+  {
+    "id": 3402,
+    "name": "MilitaryStyleTop",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 183,
+    "texture_name": "3402",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 693
+  },
+  {
+    "id": 3403,
+    "name": "FlightAttendantUniformTop",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 423,
+    "texture_name": "3403",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 574
+  },
+  {
+    "id": 3404,
+    "name": "Cheongsam",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 100,
+    "texture_name": "3404",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 609
+  },
+  {
+    "id": 3405,
+    "name": "FlightJacket",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 249,
+    "texture_name": "3405",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 945
+  },
+  {
+    "id": 3500,
+    "name": "LustfulMaidOutfit",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 177,
+    "texture_name": "3500",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 765
+  },
+  {
+    "id": 3501,
+    "name": "SensualMaidOutfit",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 277,
+    "texture_name": "3501",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 670
+  },
+  {
+    "id": 4000,
+    "name": "DrapedLongSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 174,
+    "texture_name": "4000",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 580
+  },
+  {
+    "id": 4001,
+    "name": "DrapedLongSkirt_Red",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 406,
+    "texture_name": "4001",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 924
+  },
+  {
+    "id": 4002,
+    "name": "DrapedLongSkirt_Brown",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 291,
+    "texture_name": "4002",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 727
+  },
+  {
+    "id": 4003,
+    "name": "DrapedLongSkirt_Purple",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 409,
+    "texture_name": "4003",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 597
+  },
+  {
+    "id": 4004,
+    "name": "LowWaistPleatedSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 238,
+    "texture_name": "4004",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 771
+  },
+  {
+    "id": 4005,
+    "name": "LowWaistPleatedSkirt_Blue",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 332,
+    "texture_name": "4005",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 951
+  },
+  {
+    "id": 4006,
+    "name": "LowWaistPleatedSkirt_Pink",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 350,
+    "texture_name": "4006",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 819
+  },
+  {
+    "id": 4007,
+    "name": "LowWaistPleatedSkirt_White",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 208,
+    "texture_name": "4007",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 587
+  },
+  {
+    "id": 4008,
+    "name": "GatheredSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 97,
+    "texture_name": "4008",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 781
+  },
+  {
+    "id": 4009,
+    "name": "GatheredSkirt_Red",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 261,
+    "texture_name": "4009",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 637
+  },
+  {
+    "id": 4010,
+    "name": "GatheredSkirt_Blue",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 155,
+    "texture_name": "4010",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 922
+  },
+  {
+    "id": 4011,
+    "name": "GatheredSkirt_Purple",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 122,
+    "texture_name": "4011",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1000
+  },
+  {
+    "id": 4100,
+    "name": "TieredSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 349,
+    "texture_name": "4100",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 961
+  },
+  {
+    "id": 4101,
+    "name": "TieredSkirt_Blue",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 236,
+    "texture_name": "4101",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 883
+  },
+  {
+    "id": 4102,
+    "name": "TieredSkirt_White",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 245,
+    "texture_name": "4102",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 610
+  },
+  {
+    "id": 4103,
+    "name": "TieredSkirt_Yellow",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 313,
+    "texture_name": "4103",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 704
+  },
+  {
+    "id": 4104,
+    "name": "LeatherMiniSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 434,
+    "texture_name": "4104",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 851
+  },
+  {
+    "id": 4105,
+    "name": "LeatherMiniSkirt_White",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 391,
+    "texture_name": "4105",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 859
+  },
+  {
+    "id": 4106,
+    "name": "LeatherMiniSkirt_Pink",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 478,
+    "texture_name": "4106",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 934
+  },
+  {
+    "id": 4107,
+    "name": "LeatherMiniSkirt_Purple",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 481,
+    "texture_name": "4107",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 642
+  },
+  {
+    "id": 4200,
+    "name": "StraightSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 339,
+    "texture_name": "4200",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 917
+  },
+  {
+    "id": 4201,
+    "name": "StraightSkirt_Blue",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 516,
+    "texture_name": "4201",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1004
+  },
+  {
+    "id": 4202,
+    "name": "StraightSkirt_Red",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 195,
+    "texture_name": "4202",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 843
+  },
+  {
+    "id": 4203,
+    "name": "StraightSkirt_Brown",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 368,
+    "texture_name": "4203",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 806
+  },
+  {
+    "id": 4204,
+    "name": "WrapSkirt_Red",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 422,
+    "texture_name": "4204",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 955
+  },
+  {
+    "id": 4205,
+    "name": "WrapSkirt_Pink",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 404,
+    "texture_name": "4205",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 904
+  },
+  {
+    "id": 4206,
+    "name": "WrapSkirt_Blue",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 101,
+    "texture_name": "4206",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 977
+  },
+  {
+    "id": 4207,
+    "name": "WrapSkirt_Yellow",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 141,
+    "texture_name": "4207",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 975
+  },
+  {
+    "id": 4300,
+    "name": "PencilSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 418,
+    "texture_name": "4300",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 800
+  },
+  {
+    "id": 4301,
+    "name": "PencilSkirt_Red",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 269,
+    "texture_name": "4301",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 971
+  },
+  {
+    "id": 4302,
+    "name": "PencilSkirt_White",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 186,
+    "texture_name": "4302",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 747
+  },
+  {
+    "id": 4303,
+    "name": "PencilSkirt_Brown",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 213,
+    "texture_name": "4303",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 836
+  },
+  {
+    "id": 4304,
+    "name": "FullSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 403,
+    "texture_name": "4304",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 584
+  },
+  {
+    "id": 4305,
+    "name": "FullSkirt_White",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 502,
+    "texture_name": "4305",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 725
+  },
+  {
+    "id": 4306,
+    "name": "FullSkirt_Blue",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 148,
+    "texture_name": "4306",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 992
+  },
+  {
+    "id": 4307,
+    "name": "FullSkirt_Yellow",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 428,
+    "texture_name": "4307",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 863
+  },
+  {
+    "id": 4400,
+    "name": "PleatedSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 473,
+    "texture_name": "4400",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 790
+  },
+  {
+    "id": 4401,
+    "name": "PleatedSkirt_Blue",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 393,
+    "texture_name": "4401",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 692
+  },
+  {
+    "id": 4402,
+    "name": "RuffleSkirt_Pink",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 482,
+    "texture_name": "4402",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 764
+  },
+  {
+    "id": 4403,
+    "name": "RuffleSkirt_Purple",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 220,
+    "texture_name": "4403",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 966
+  },
+  {
+    "id": 4500,
+    "name": "TutuSkirt_Black",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 484,
+    "texture_name": "4500",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 918
+  },
+  {
+    "id": 4501,
+    "name": "RuffleBubbleSkirt_White",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 400,
+    "skin_name": "Bottom",
+    "texture_path_id": 115,
+    "texture_name": "4501",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 900
+  },
+  {
+    "id": 5000,
+    "name": "SportsBra_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 252,
+    "texture_name": "5000",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1011
+  },
+  {
+    "id": 5001,
+    "name": "SportsBra_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 295,
+    "texture_name": "5001",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1030
+  },
+  {
+    "id": 5002,
+    "name": "SportsBra_Purple",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 197,
+    "texture_name": "5002",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 731
+  },
+  {
+    "id": 5003,
+    "name": "SportsBra_Green",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 493,
+    "texture_name": "5003",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 888
+  },
+  {
+    "id": 5004,
+    "name": "SpaghettiStrapBra_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 182,
+    "texture_name": "5004",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 814
+  },
+  {
+    "id": 5005,
+    "name": "SpaghettiStrapBra_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 255,
+    "texture_name": "5005",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 759
+  },
+  {
+    "id": 5006,
+    "name": "SpaghettiStrapBra_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 412,
+    "texture_name": "5006",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 705
+  },
+  {
+    "id": 5007,
+    "name": "SpaghettiStrapBra_Yellow",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 457,
+    "texture_name": "5007",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 630
+  },
+  {
+    "id": 5008,
+    "name": "LaceBra_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 396,
+    "texture_name": "5008",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 586
+  },
+  {
+    "id": 5009,
+    "name": "LaceBra_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 144,
+    "texture_name": "5009",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 926
+  },
+  {
+    "id": 5010,
+    "name": "LaceBra_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 248,
+    "texture_name": "5010",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 576
+  },
+  {
+    "id": 5011,
+    "name": "LaceBra_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 225,
+    "texture_name": "5011",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 941
+  },
+  {
+    "id": 5100,
+    "name": "SexyLingerie_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 271,
+    "texture_name": "5100",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 948
+  },
+  {
+    "id": 5101,
+    "name": "SexyLingerie_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 84,
+    "texture_name": "5101",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 906
+  },
+  {
+    "id": 5102,
+    "name": "SexyLingerie_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 128,
+    "texture_name": "5102",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1010
+  },
+  {
+    "id": 5103,
+    "name": "SexyLingerie_Purple",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 168,
+    "texture_name": "5103",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1012
+  },
+  {
+    "id": 5104,
+    "name": "StraplessBra_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 164,
+    "texture_name": "5104",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 665
+  },
+  {
+    "id": 5105,
+    "name": "StraplessBra_White",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 90,
+    "texture_name": "5105",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 845
+  },
+  {
+    "id": 5106,
+    "name": "StraplessBra_Purple",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 294,
+    "texture_name": "5106",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 605
+  },
+  {
+    "id": 5107,
+    "name": "StraplessBra_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 508,
+    "texture_name": "5107",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 974
+  },
+  {
+    "id": 5108,
+    "name": "FloralBikini_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 314,
+    "texture_name": "5108",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 795
+  },
+  {
+    "id": 5109,
+    "name": "FloralBikini_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 327,
+    "texture_name": "5109",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 604
+  },
+  {
+    "id": 5110,
+    "name": "FloralBikini_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 471,
+    "texture_name": "5110",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 882
+  },
+  {
+    "id": 5111,
+    "name": "FloralBikini_Yellow",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 498,
+    "texture_name": "5111",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 732
+  },
+  {
+    "id": 5200,
+    "name": "MetalRingBandeauBra_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 465,
+    "texture_name": "5200",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 908
+  },
+  {
+    "id": 5201,
+    "name": "MetalRingBandeauBra_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 337,
+    "texture_name": "5201",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1001
+  },
+  {
+    "id": 5202,
+    "name": "MetalRingBandeauBra_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 309,
+    "texture_name": "5202",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 980
+  },
+  {
+    "id": 5203,
+    "name": "MetalRingBandeauBra_Yellow",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 229,
+    "texture_name": "5203",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 801
+  },
+  {
+    "id": 5204,
+    "name": "BandeauBra_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 278,
+    "texture_name": "5204",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 638
+  },
+  {
+    "id": 5205,
+    "name": "BandeauBra_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 170,
+    "texture_name": "5205",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 994
+  },
+  {
+    "id": 5206,
+    "name": "BandeauBra_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 343,
+    "texture_name": "5206",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 913
+  },
+  {
+    "id": 5207,
+    "name": "BandeauBra_Purple",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 420,
+    "texture_name": "5207",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 788
+  },
+  {
+    "id": 5208,
+    "name": "HalterNeckBikini_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 99,
+    "texture_name": "5208",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 894
+  },
+  {
+    "id": 5209,
+    "name": "HalterNeckBikini_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 286,
+    "texture_name": "5209",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 686
+  },
+  {
+    "id": 5210,
+    "name": "HalterNeckBikini_White",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 264,
+    "texture_name": "5210",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 673
+  },
+  {
+    "id": 5211,
+    "name": "HalterNeckBikini_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 408,
+    "texture_name": "5211",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 734
+  },
+  {
+    "id": 5300,
+    "name": "HalterBikini_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 400,
+    "texture_name": "5300",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 595
+  },
+  {
+    "id": 5301,
+    "name": "HalterBikini_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 315,
+    "texture_name": "5301",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 655
+  },
+  {
+    "id": 5302,
+    "name": "HalterBikini_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 165,
+    "texture_name": "5302",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 758
+  },
+  {
+    "id": 5303,
+    "name": "HalterBikini_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 137,
+    "texture_name": "5303",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 950
+  },
+  {
+    "id": 5304,
+    "name": "TriangleBikini_Golden",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 153,
+    "texture_name": "5304",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1019
+  },
+  {
+    "id": 5305,
+    "name": "TriangleBikini_Silver",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 472,
+    "texture_name": "5305",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 699
+  },
+  {
+    "id": 5306,
+    "name": "TriangleBikini_Black",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 494,
+    "texture_name": "5306",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 773
+  },
+  {
+    "id": 5307,
+    "name": "TriangleBikini_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 329,
+    "texture_name": "5307",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 910
+  },
+  {
+    "id": 5308,
+    "name": "SexyBikini_Purple",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 147,
+    "texture_name": "5308",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 624
+  },
+  {
+    "id": 5309,
+    "name": "SexyBikini_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 433,
+    "texture_name": "5309",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 881
+  },
+  {
+    "id": 5310,
+    "name": "SexyBikini_Yellow",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 142,
+    "texture_name": "5310",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 973
+  },
+  {
+    "id": 5311,
+    "name": "SexyBikini_White",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 459,
+    "texture_name": "5311",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 946
+  },
+  {
+    "id": 5312,
+    "name": "MicroBikini_Blue",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 292,
+    "texture_name": "5312",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 685
+  },
+  {
+    "id": 5313,
+    "name": "MicroBikini_Red",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 491,
+    "texture_name": "5313",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 636
+  },
+  {
+    "id": 5314,
+    "name": "MicroBikini_White",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 120,
+    "texture_name": "5314",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1038
+  },
+  {
+    "id": 5315,
+    "name": "MicroBikini_Pink",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 378,
+    "texture_name": "5315",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 855
+  },
+  {
+    "id": 5400,
+    "name": "BandageBra",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 108,
+    "texture_name": "5400",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1040
+  },
+  {
+    "id": 5401,
+    "name": "HeartPasties",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 176,
+    "texture_name": "5401",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 712
+  },
+  {
+    "id": 5402,
+    "name": "StarPasties",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 256,
+    "texture_name": "5402",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 832
+  },
+  {
+    "id": 5403,
+    "name": "CrossBlackPasties",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 431,
+    "texture_name": "5403",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 864
+  },
+  {
+    "id": 5404,
+    "name": "ShellPasties",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 175,
+    "texture_name": "5404",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1014
+  },
+  {
+    "id": 5405,
+    "name": "CrystalPasties",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 145,
+    "texture_name": "5405",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 585
+  },
+  {
+    "id": 5500,
+    "name": "SlimeBra",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 487,
+    "texture_name": "5500",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 726
+  },
+  {
+    "id": 5501,
+    "name": "MilkSplashBra",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 304,
+    "texture_name": "5501",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 810
+  },
+  {
+    "id": 8000,
+    "name": "CrewSocks_White",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 200,
+    "texture_name": "8000",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 751
+  },
+  {
+    "id": 8001,
+    "name": "CrewSocks_Black",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 410,
+    "texture_name": "8001",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 782
+  },
+  {
+    "id": 8002,
+    "name": "CrewSocks_Red",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 426,
+    "texture_name": "8002",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 986
+  },
+  {
+    "id": 8003,
+    "name": "CrewSocks_Blue",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 193,
+    "texture_name": "8003",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 896
+  },
+  {
+    "id": 8004,
+    "name": "CrewSocks_Pink",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 444,
+    "texture_name": "8004",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 886
+  },
+  {
+    "id": 8005,
+    "name": "CrewSocks_Yellow",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 96,
+    "texture_name": "8005",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 936
+  },
+  {
+    "id": 8006,
+    "name": "CalfSocks_White",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 281,
+    "texture_name": "8006",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 850
+  },
+  {
+    "id": 8007,
+    "name": "CalfSocks_Black",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 374,
+    "texture_name": "8007",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 650
+  },
+  {
+    "id": 8008,
+    "name": "CalfSocks_Red",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 94,
+    "texture_name": "8008",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 909
+  },
+  {
+    "id": 8009,
+    "name": "CalfSocks_Green",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 218,
+    "texture_name": "8009",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1013
+  },
+  {
+    "id": 8010,
+    "name": "CalfSocks_Pink",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 240,
+    "texture_name": "8010",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 840
+  },
+  {
+    "id": 8011,
+    "name": "CalfSocks_Yellow",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 210,
+    "texture_name": "8011",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 603
+  },
+  {
+    "id": 8100,
+    "name": "FrillyCrewSocks_White",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 298,
+    "texture_name": "8100",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 591
+  },
+  {
+    "id": 8101,
+    "name": "FrillyCrewSocks_Black",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 479,
+    "texture_name": "8101",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 599
+  },
+  {
+    "id": 8102,
+    "name": "FrillyCrewSocks_Red",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 316,
+    "texture_name": "8102",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 808
+  },
+  {
+    "id": 8103,
+    "name": "FrillyCrewSocks_Blue",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 399,
+    "texture_name": "8103",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 615
+  },
+  {
+    "id": 8104,
+    "name": "FrillyCrewSocks_Pink",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 156,
+    "texture_name": "8104",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 588
+  },
+  {
+    "id": 8105,
+    "name": "FrillyCrewSocks_Yellow",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 127,
+    "texture_name": "8105",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 700
+  },
+  {
+    "id": 8106,
+    "name": "ScrunchedSocks_White",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 86,
+    "texture_name": "8106",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 767
+  },
+  {
+    "id": 8107,
+    "name": "ScrunchedSocks_Black",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 82,
+    "texture_name": "8107",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 885
+  },
+  {
+    "id": 8108,
+    "name": "ScrunchedSocks_Red",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 267,
+    "texture_name": "8108",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 755
+  },
+  {
+    "id": 8109,
+    "name": "ScrunchedSocks_Blue",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 384,
+    "texture_name": "8109",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 995
+  },
+  {
+    "id": 8110,
+    "name": "ScrunchedSocks_Pink",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 285,
+    "texture_name": "8110",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 862
+  },
+  {
+    "id": 8111,
+    "name": "ScrunchedSocks_Yellow",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 367,
+    "texture_name": "8111",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 785
+  },
+  {
+    "id": 8200,
+    "name": "ThighHighSocks_White",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 260,
+    "texture_name": "8200",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 837
+  },
+  {
+    "id": 8201,
+    "name": "ThighHighSocks_Black",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 356,
+    "texture_name": "8201",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 613
+  },
+  {
+    "id": 8202,
+    "name": "ThighHighSocks_Red",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 352,
+    "texture_name": "8202",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 919
+  },
+  {
+    "id": 8203,
+    "name": "ThighHighSocks_Blue",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 103,
+    "texture_name": "8203",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 667
+  },
+  {
+    "id": 8204,
+    "name": "ThighHighSocks_Pink",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 453,
+    "texture_name": "8204",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 648
+  },
+  {
+    "id": 8205,
+    "name": "ThighHighSocks_Yellow",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 439,
+    "texture_name": "8205",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 834
+  },
+  {
+    "id": 8300,
+    "name": "StripedThighHighSocks_Red",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 136,
+    "texture_name": "8300",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 856
+  },
+  {
+    "id": 8301,
+    "name": "StripedThighHighSocks_Black",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 110,
+    "texture_name": "8301",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 761
+  },
+  {
+    "id": 8302,
+    "name": "StripedThighHighSocks_Purple",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 371,
+    "texture_name": "8302",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 897
+  },
+  {
+    "id": 8303,
+    "name": "StripedThighHighSocks_Blue",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 217,
+    "texture_name": "8303",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 774
+  },
+  {
+    "id": 8304,
+    "name": "StripedThighHighSocks_Green",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 270,
+    "texture_name": "8304",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 663
+  },
+  {
+    "id": 8305,
+    "name": "StripedThighHighSocks_Pink",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 246,
+    "texture_name": "8305",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 594
+  },
+  {
+    "id": 8400,
+    "name": "FishnetThighHighSocks",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 79,
+    "texture_name": "8400",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 991
+  },
+  {
+    "id": 8401,
+    "name": "BlackStockings",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 266,
+    "texture_name": "8401",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 844
+  },
+  {
+    "id": 8402,
+    "name": "LeopardPrintStockings",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 429,
+    "texture_name": "8402",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 606
+  },
+  {
+    "id": 8403,
+    "name": "CowPrintStockings",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 184,
+    "texture_name": "8403",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 835
+  },
+  {
+    "id": 8404,
+    "name": "SlimeSocks",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 340,
+    "texture_name": "8404",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 993
+  },
+  {
+    "id": 8500,
+    "name": "ThighGraffiti",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 398,
+    "texture_name": "8500",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 668
+  },
+  {
+    "id": 8501,
+    "name": "MilkSplashSocks",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 322,
+    "texture_name": "8501",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 763
+  },
+  {
+    "id": 9000,
+    "name": "CanvasShoes_White",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 112,
+    "texture_name": "9000",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 890
+  },
+  {
+    "id": 9001,
+    "name": "CanvasShoes_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 395,
+    "texture_name": "9001",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 760
+  },
+  {
+    "id": 9002,
+    "name": "CanvasShoes_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 131,
+    "texture_name": "9002",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1006
+  },
+  {
+    "id": 9003,
+    "name": "CanvasShoes_Pink",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 458,
+    "texture_name": "9003",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 925
+  },
+  {
+    "id": 9004,
+    "name": "FlipFlops_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 289,
+    "texture_name": "9004",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 675
+  },
+  {
+    "id": 9005,
+    "name": "FlipFlops_Pink",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 519,
+    "texture_name": "9005",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1016
+  },
+  {
+    "id": 9006,
+    "name": "FlipFlops_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 427,
+    "texture_name": "9006",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 985
+  },
+  {
+    "id": 9007,
+    "name": "FlipFlops_Purple",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 129,
+    "texture_name": "9007",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 990
+  },
+  {
+    "id": 9008,
+    "name": "AnkleBoots_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 203,
+    "texture_name": "9008",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 643
+  },
+  {
+    "id": 9009,
+    "name": "AnkleBoots_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 495,
+    "texture_name": "9009",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 658
+  },
+  {
+    "id": 9010,
+    "name": "AnkleBoots_Pink",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 496,
+    "texture_name": "9010",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 879
+  },
+  {
+    "id": 9011,
+    "name": "AnkleBoots_White",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 310,
+    "texture_name": "9011",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 796
+  },
+  {
+    "id": 9100,
+    "name": "DesignerCanvasShoes_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 417,
+    "texture_name": "9100",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 905
+  },
+  {
+    "id": 9101,
+    "name": "DesignerCanvasShoes_Red",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 133,
+    "texture_name": "9101",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 682
+  },
+  {
+    "id": 9102,
+    "name": "DesignerCanvasShoes_Green",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 201,
+    "texture_name": "9102",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 677
+  },
+  {
+    "id": 9103,
+    "name": "DesignerCanvasShoes_Purple",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 307,
+    "texture_name": "9103",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1008
+  },
+  {
+    "id": 9104,
+    "name": "Slippers_Pink",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 119,
+    "texture_name": "9104",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 694
+  },
+  {
+    "id": 9105,
+    "name": "Slippers_White",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 198,
+    "texture_name": "9105",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1039
+  },
+  {
+    "id": 9106,
+    "name": "Slippers_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 488,
+    "texture_name": "9106",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 728
+  },
+  {
+    "id": 9107,
+    "name": "Slippers_Orange",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 111,
+    "texture_name": "9107",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 627
+  },
+  {
+    "id": 9108,
+    "name": "FurBoots_White",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 388,
+    "texture_name": "9108",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 849
+  },
+  {
+    "id": 9109,
+    "name": "FurBoots_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 325,
+    "texture_name": "9109",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 691
+  },
+  {
+    "id": 9110,
+    "name": "FurBoots_Brown",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 287,
+    "texture_name": "9110",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 612
+  },
+  {
+    "id": 9111,
+    "name": "FurBoots_Red",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 258,
+    "texture_name": "9111",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1036
+  },
+  {
+    "id": 9200,
+    "name": "Sneakers_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 392,
+    "texture_name": "9200",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 787
+  },
+  {
+    "id": 9201,
+    "name": "Sneakers_Pink",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 505,
+    "texture_name": "9201",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 797
+  },
+  {
+    "id": 9202,
+    "name": "Sneakers_Yellow",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 376,
+    "texture_name": "9202",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 619
+  },
+  {
+    "id": 9203,
+    "name": "Sneakers_Purple",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 335,
+    "texture_name": "9203",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 661
+  },
+  {
+    "id": 9204,
+    "name": "GladiatorSandals_Brown",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 152,
+    "texture_name": "9204",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1025
+  },
+  {
+    "id": 9205,
+    "name": "GladiatorSandals_White",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 296,
+    "texture_name": "9205",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 933
+  },
+  {
+    "id": 9206,
+    "name": "GladiatorSandals_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 107,
+    "texture_name": "9206",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 846
+  },
+  {
+    "id": 9207,
+    "name": "GladiatorSandals_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 300,
+    "texture_name": "9207",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 870
+  },
+  {
+    "id": 9208,
+    "name": "PlatformSandals_Purple",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 274,
+    "texture_name": "9208",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 656
+  },
+  {
+    "id": 9209,
+    "name": "PlatformSandals_Red",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 306,
+    "texture_name": "9209",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 923
+  },
+  {
+    "id": 9210,
+    "name": "PlatformSandals_Pink",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 366,
+    "texture_name": "9210",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 907
+  },
+  {
+    "id": 9211,
+    "name": "PlatformSandals_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 363,
+    "texture_name": "9211",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 903
+  },
+  {
+    "id": 9300,
+    "name": "HighHeels_Red",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 442,
+    "texture_name": "9300",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 676
+  },
+  {
+    "id": 9301,
+    "name": "HighHeels_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 265,
+    "texture_name": "9301",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 679
+  },
+  {
+    "id": 9302,
+    "name": "HighHeels_White",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 283,
+    "texture_name": "9302",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 898
+  },
+  {
+    "id": 9303,
+    "name": "HighHeels_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 354,
+    "texture_name": "9303",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 640
+  },
+  {
+    "id": 9304,
+    "name": "CombatBoots_Brown",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 452,
+    "texture_name": "9304",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 802
+  },
+  {
+    "id": 9305,
+    "name": "CombatBoots_Black",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 280,
+    "texture_name": "9305",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1021
+  },
+  {
+    "id": 9306,
+    "name": "CombatBoots_White",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 98,
+    "texture_name": "9306",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 866
+  },
+  {
+    "id": 9307,
+    "name": "CombatBoots_Blue",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 389,
+    "texture_name": "9307",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1022
+  },
+  {
+    "id": 9400,
+    "name": "BalletShoes",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 275,
+    "texture_name": "9400",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 716
+  },
+  {
+    "id": 9401,
+    "name": "AnkleShackles",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 194,
+    "texture_name": "9401",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 954
+  },
+  {
+    "id": 9402,
+    "name": "ArmoredBoots",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 135,
+    "texture_name": "9402",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 750
+  },
+  {
+    "id": 9403,
+    "name": "NinjaBoots",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 387,
+    "texture_name": "9403",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 736
+  },
+  {
+    "id": 9404,
+    "name": "FuturisticHighHeels",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 901,
+    "skin_name": "Shoes_Mask",
+    "texture_path_id": 88,
+    "texture_name": "9404",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 702
+  },
+  {
+    "id": 9405,
+    "name": "Geta",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 121,
+    "texture_name": "9405",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 892
+  },
+  {
+    "id": 9500,
+    "name": "Anklet",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 191,
+    "texture_name": "9500",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 940
+  },
+  {
+    "id": 9501,
+    "name": "BellAnklet",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 247,
+    "texture_name": "9501",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 889
+  },
+  {
+    "id": 100000,
+    "name": "IvysHairOriginalColor",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 117,
+    "skin_name": "Hair_Ivys",
+    "texture_path_id": 0,
+    "texture_name": "",
+    "texture_size": null,
+    "icon_path_id": 865
+  },
+  {
+    "id": 100001,
+    "name": "IvysHairAlternateColor",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 118,
+    "skin_name": "Hair_Ivys_2",
+    "texture_path_id": 0,
+    "texture_name": "",
+    "texture_size": null,
+    "icon_path_id": 952
+  },
+  {
+    "id": 100100,
+    "name": "IvysTopOriginalColor",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 123,
+    "texture_name": "100100",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 1033
+  },
+  {
+    "id": 100101,
+    "name": "IvysTopAlternateColor",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 308,
+    "texture_name": "100101",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 978
+  },
+  {
+    "id": 100200,
+    "name": "IvysPantsOriginalColor",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 401,
+    "skin_name": "Bottom_Pants",
+    "texture_path_id": 158,
+    "texture_name": "100200",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 641
+  },
+  {
+    "id": 100201,
+    "name": "IvysPantsAlternateColor",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 401,
+    "skin_name": "Bottom_Pants",
+    "texture_path_id": 507,
+    "texture_name": "100201",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 1009
+  },
+  {
+    "id": 100300,
+    "name": "IvysUnderwearOriginalColor",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 114,
+    "texture_name": "100300",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 911
+  },
+  {
+    "id": 100301,
+    "name": "IvysUnderwearAlternateColor",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 134,
+    "texture_name": "100301",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 821
+  },
+  {
+    "id": 100400,
+    "name": "IvysSocksOriginalColor",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 375,
+    "texture_name": "100400",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 695
+  },
+  {
+    "id": 100401,
+    "name": "IvysSocksAlternateColor",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 243,
+    "texture_name": "100401",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 741
+  },
+  {
+    "id": 100500,
+    "name": "IvysShoesOriginalColor",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 284,
+    "texture_name": "100500",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 869
+  },
+  {
+    "id": 100501,
+    "name": "IvysShoesAlternateColor",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 78,
+    "texture_name": "100501",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 970
+  },
+  {
+    "id": 101000,
+    "name": "ManelleHairOriginalColor",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 119,
+    "skin_name": "Hair_Manelle",
+    "texture_path_id": 0,
+    "texture_name": "",
+    "texture_size": null,
+    "icon_path_id": 891
+  },
+  {
+    "id": 101001,
+    "name": "ManelleHairAlternateColor",
+    "type_id": 1,
+    "type": "Hair",
+    "skin_name_id": 120,
+    "skin_name": "Hair_Manelle_2",
+    "texture_path_id": 0,
+    "texture_name": "",
+    "texture_size": null,
+    "icon_path_id": 947
+  },
+  {
+    "id": 101100,
+    "name": "ManelleTopOriginalColor",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 106,
+    "texture_name": "101100",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 744
+  },
+  {
+    "id": 101101,
+    "name": "ManelleTopAlternateColor",
+    "type_id": 3,
+    "type": "Top",
+    "skin_name_id": 300,
+    "skin_name": "Top",
+    "texture_path_id": 407,
+    "texture_name": "101101",
+    "texture_size": [
+      2048,
+      2048
+    ],
+    "icon_path_id": 740
+  },
+  {
+    "id": 101200,
+    "name": "ManellePantsOriginalColor",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 401,
+    "skin_name": "Bottom_Pants",
+    "texture_path_id": 91,
+    "texture_name": "101200",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 577
+  },
+  {
+    "id": 101201,
+    "name": "ManellePantsAlternateColor",
+    "type_id": 4,
+    "type": "Bottom",
+    "skin_name_id": 401,
+    "skin_name": "Bottom_Pants",
+    "texture_path_id": 445,
+    "texture_name": "101201",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 733
+  },
+  {
+    "id": 101300,
+    "name": "ManelleUnderwearOriginalColor",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 312,
+    "texture_name": "101300",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 829
+  },
+  {
+    "id": 101301,
+    "name": "ManelleUnderwearAlternateColor",
+    "type_id": 5,
+    "type": "Underwear",
+    "skin_name_id": 500,
+    "skin_name": "Underwear",
+    "texture_path_id": 154,
+    "texture_name": "101301",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 871
+  },
+  {
+    "id": 101400,
+    "name": "ManelleSocksOriginalColor",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 474,
+    "texture_name": "101400",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 914
+  },
+  {
+    "id": 101401,
+    "name": "ManelleSocksAlternateColor",
+    "type_id": 8,
+    "type": "Socks",
+    "skin_name_id": 800,
+    "skin_name": "Socks",
+    "texture_path_id": 242,
+    "texture_name": "101401",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 854
+  },
+  {
+    "id": 101500,
+    "name": "ManelleShoesOriginalColor",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 383,
+    "texture_name": "101500",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 817
+  },
+  {
+    "id": 101501,
+    "name": "ManelleShoesAlternateColor",
+    "type_id": 9,
+    "type": "Shoes",
+    "skin_name_id": 900,
+    "skin_name": "Shoes",
+    "texture_path_id": 334,
+    "texture_name": "101501",
+    "texture_size": [
+      1024,
+      1024
+    ],
+    "icon_path_id": 815
+  }
+]

@@ -1,0 +1,9 @@
+.runtime/
+__pycache__/
+*.pyc
+*.log
+Thumbs.db
+.DS_Store
+bongo-waifu-clothes-preview/index.html
+bongo-waifu-clothes-preview/overlay.html
+bongo-waifu-clothes-preview/[0-9]*.png
